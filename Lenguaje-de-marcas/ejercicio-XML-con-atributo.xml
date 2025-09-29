@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+  <empresa>
+    <departamento nombre ="marketing">
+      <empleado>
+       <nombre >Alfonso</nombre>
+        <apellidos >Martínez</apellidos>
+        <dni>44506689X</dni>
+        <telefono >450776098</telefono>
+        <cargo>Jefe de marketing</cargo>
+       <sueldo>3.000€ </sueldo>
+     </empleado>
+    </departamento>
+      <departamento>
+               <nombre >Ernesto</nombre>
+        <apellidos >Perez</apellidos>
+        <dni>66894535D</dni>
+        <telefono >67099832217</telefono>
+        <cargo>Diseño de logos</cargo>
+       <sueldo>2450€</sueldo>
+       </departamento>
+</empresa>

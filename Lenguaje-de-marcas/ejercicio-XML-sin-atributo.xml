@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+  <departamento>
+    <desarrollo>
+    <empleado>
+    <nombre>Allejandro</nombre>
+      <apellidos>Cruz</apellidos>
+      <dni>87483098E</dni>
+      <telefono>809603487</telefono>
+      <cargo>Auxiliar de desarrollo</cargo>
+      <sueldo>2.300€</sueldo>
+    </empleado>
+        <empleado>
+    <nombre>Federico</nombre>
+      <apellidos>Torres</apellidos>
+      <dni>38465712P</dni>
+      <telefono>56782098</telefono>
+      <cargo>Jefe del departamento</cargo>
+      <sueldo>3.500€</sueldo>
+    </empleado>
+    </desarrollo>
+  </departamento>
+</empresa>
