@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Informacion sobrelas tarjetas graficas-->
+<tarjetas_graficas>
+    <marca nombre ="NVIDIA">
+        <tarjeta>
+            <tipo>RTX4070ti</tipo>
+            <prefijo>RTX</prefijo>
+            <generacion>4000</generacion>
+            <gama>media-alta</gama>
+        <vram>12GB</vram>
+        </tarjeta>
+    </marca>
+    <marca nombre="AMD">
+        <tarjeta>
+            <tipo>RX 7600XT</tipo>
+            <prefijo>RX</prefijo>
+            <generacion>7000</generacion>
+            <gama>alta</gama>
+            <vram>16GB</vram>
+        </tarjeta>
+    </marca>
+</tarjetas_graficas>
+
+<!--Antes de poner los  elementos y subelementos hay que poner otro atributo que
+ indique que tipos o diferentes elementoseneste caso la etiqueta tarjeta-->
