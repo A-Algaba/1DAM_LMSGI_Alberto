@@ -1,0 +1,11 @@
+table {
+    border: black solid;
+}
+
+tr, th , td {
+    border: black solid;
+}
+
+span {
+    background-color: orange;
+}
