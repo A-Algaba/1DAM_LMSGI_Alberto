@@ -1,0 +1,11 @@
+table {
+    border: solid black;
+}
+
+th, tr, td {
+    border: solid black;
+}
+
+caption {
+    font-size: 2em;
+}
