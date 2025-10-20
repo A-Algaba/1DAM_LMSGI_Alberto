@@ -9,8 +9,14 @@
     <body>
         <h1>FORMULARIO DE CURRICULUM</h1>
         <form action="proceso.php" method="post">
+            <!-- Explicación breve de lo que hace este bloque: la etiqueta fieldset crea una
+            caja con subrayado alrededor de los elementos dentro y legendo permite escribir
+            un titulo en la caja para que quede mas estetico -->
             <fieldset>
                 <legend>Datos personales</legend>
+                <!-- Explicación breve de lo que hace este bloque: En esta primera seccion he
+                puesto inputs de tipo texto y un nombre de identificador y dos radios para
+                elegir el tipo de sexo -->
                 Nombre:<input type="text" name="nombre">
                 <br>
                 <br>
@@ -25,6 +31,8 @@
                 <input type="radio" name="elegir" value="m">Mujer
             </fieldset>
             <fieldset>
+                <!-- Explicación breve de lo que hace este bloque: Solo he puesto inputs de tipo
+                texto y un nombre de identificador -->
                 <legend>Contacto</legend>
                 Correo Electronico:
                 <input type="text" name="correo">
@@ -36,6 +44,11 @@
                 <input type="text" name="direccion">
                 <br>
                 <br>
+                <!-- Explicación breve de lo que hace este bloque: En la parte de las ciudades,
+                he puesto la etiqueta select con un nombre de identificador, y sus etiquetas
+                hijos, options con value como identificador, y la parte de selected, sirve para
+                poner por defecto la etiqueta principal y que siempre se muestre en pantalla
+                como primera opcion de vista -->
                 Ciudad:
                 <select name="ciudad">
                     <option value="Cordoba">Cordoba</option>
@@ -59,23 +72,48 @@
             </fieldset>
             <fieldset>
                 <legend>Datos de interes</legend>
+                <!-- Explicación breve de lo que hace este bloque: Para la parte de estado civil
+                pondre en el input de tipo radio, para marcar una opcion y ponerle un nombre y
+                valor como identificador -->
                 Estado civil:
                 <input type="radio" name="elegir" value="c">Casado
                 <input type="radio" name="elegir" value="n">No casado
                 <br>
                 <br>
+                <!-- Explicación breve de lo que hace este bloque: La parte de los hobbies, he
+                puesto unos checkbox para marcar diferentes opciones en el input el tipo es
+                checkbox y se le pone un nombre -->
                 Hobbies:
                 <br>
-                <input type="checkbox" name="deporte">Deporte <br>
-                <input type="checkbox" name="cine">Cine <br>
-                <input type="checkbox" name="lectura">Lectura <br>
-                <input type="checkbox" name="comer">Comer <br>
+                <input type="checkbox" name="deporte">Deporte
+                <br>
+                <input type="checkbox" name="cine">Cine
+                <br>
+                <input type="checkbox" name="lectura">Lectura
+                <br>
+                <input type="checkbox" name="comer">Comer
+                <br>
             </fieldset>
             <fieldset>
+                <!-- Explicación breve de lo que hace este bloque: En la ultima parte pondre la
+                etiqueta textarea con un nombre, el rows es las filas que tendra de tamaño y el
+                cols son los tamaños de la columna, y el placeholder es para dejar un mensaje
+                "permanente" sobre el apartado de comentarios -->
                 <legend>Comentarios adicionales</legend>
-                Escribe aqui tus comentarios: <br> <br>
-                <textarea name="comentario" rows="5" cols="50" placeholder="Escriba aqui su comentario..."></textarea>
-            </fieldset> <br>
+                Escribe aqui tus comentarios:
+                <br>
+                <br>
+                <textarea
+                    name="comentario"
+                    rows="5"
+                    cols="50"
+                    placeholder="Escriba aqui su comentario..."></textarea>
+            </fieldset>
+            <br>
+            <!-- Explicación breve de lo que hace este bloque: los botones para el
+            formulario se ponen con un input y de tipo subir y resetear, ya que si pongo el
+            valor boton, no hara nada a menos que inserte codigo javascript y a ambos seles
+            pone un valor para ser identificados -->
             <input type="submit" value="subir">
             <input type="reset" value="resetear">
         </form>
