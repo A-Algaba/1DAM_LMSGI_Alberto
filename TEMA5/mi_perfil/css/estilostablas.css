@@ -1,0 +1,63 @@
+table {
+    border: solid black;
+}
+
+td,
+th,
+tr {
+    border: solid black;
+}
+
+span {
+    background-color: brown;
+    color: whitesmoke;
+}
+
+#recreo {
+    text-align: center;
+    background-color: darkorchid;
+    color: aliceblue;
+}
+
+#davante {
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+.horario {
+    background-color: darkcyan;
+    color: whitesmoke;
+}
+
+.programacion {
+    background-color: dodgerblue;
+    color: whitesmoke;
+}
+
+.base {
+    background-color: lightsalmon;
+}
+
+.ipe {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.sistemas {
+    background-color: hotpink;
+}
+
+.entornos {
+    background-color: aqua;
+}
+
+.sostenibilidad {
+    background-color: green;
+    color: whitesmoke;
+
+}
+
+.digitalizacion {
+    background-color: goldenrod;
+}

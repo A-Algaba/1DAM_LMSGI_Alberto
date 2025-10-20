@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>formularios</title>
+        <meta name="author" content="Tu nombre completo">
+        <meta name="description" content="Página personal creada con HTML">
+    </head>
+    <body>
+        <h1>FORMULARIO DE CURRICULUM</h1>
+        <form action="proceso.php" method="post">
+            <fieldset>
+                <legend>Datos personales</legend>
+                Nombre:<input type="text" name="nombre">
+                <br>
+                <br>
+                Apellidos<input type="text" name="apellidos">
+                <br>
+                <br>
+                Edad:
+                <input type="text" name="edad"><br>
+                <br>
+                Sexo:
+                <input type="radio" name="elegir" value="h">hombre
+                <input type="radio" name="elegir" value="m">Mujer
+            </fieldset>
+            <fieldset>
+                <legend>Contacto</legend>
+                Correo Electronico:
+                <input type="text" name="correo">
+                <br>
+                <br>
+                Código postal:
+                <input type="text" name="correo">
+                Dirección:
+                <input type="text" name="direccion">
+                <br>
+                <br>
+                Ciudad:
+                <select name="ciudad">
+                    <option value="Cordoba">Cordoba</option>
+                    <option value="Granada">Granada</option>
+                    <option value="Jaén" selected="selected">Jaén</option>
+                    <option value="Sevilla">Sevilla</option>
+                    <option value="Malaga">Malaga</option>
+                    <option value="Cádiz">Cádiz</option>
+                    <option value="Huelva">Huelva</option>
+                </select>
+                <br>
+                <br>
+                <!-- Explicación breve de lo que hace este bloque: En la parte de input se
+                encarga de establecer una contraseña para que cuando se suba el formulario lo
+                pueda gestionar el fichero proceso.php, la parte size indica el ancho de
+                caracteres permitidos es decir, que si excedemos de este numero asigando, la
+                barra de la contraseña se hara mas ancha. La parte de maxlength y minlength
+                significa el numero de caracteres que se permite para la contraseña -->
+                Contraseña:
+                <input type="password" name="contraseña" size="30" maxlength="25" minlength="5">
+            </fieldset>
+            <fieldset>
+                <legend>Datos de interes</legend>
+                Estado civil:
+                <input type="radio" name="elegir" value="c">Casado
+                <input type="radio" name="elegir" value="n">No casado
+                <br>
+                <br>
+                Hobbies:
+                <br>
+                <input type="checkbox" name="deporte">Deporte <br>
+                <input type="checkbox" name="cine">Cine <br>
+                <input type="checkbox" name="lectura">Lectura <br>
+                <input type="checkbox" name="comer">Comer <br>
+            </fieldset>
+            <fieldset>
+                <legend>Comentarios adicionales</legend>
+                Escribe aqui tus comentarios: <br> <br>
+                <textarea name="comentario" rows="5" cols="50" placeholder="Escriba aqui su comentario..."></textarea>
+            </fieldset> <br>
+            <input type="submit" value="subir">
+            <input type="reset" value="resetear">
+        </form>
+    </body>
+    <html>
