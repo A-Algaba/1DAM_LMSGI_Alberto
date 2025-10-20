@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>casopractico2</title>
+        <link rel="stylesheet" href="./css/casopractio2.css">
     </head>
     <body>
         <form action="proceso.php" method="post">
@@ -18,6 +19,19 @@
                 </p>
                 <input type="submit" value="Enviar">
             </fieldset>
+            <fieldset>
+                <legend>Datos de interes</legend>
+                ¿Estas casado?:
+                <input type="radio" name="elegir" value="s">Si
+                <input type="radio" name="elegir" value="n">No
+                <br>
+                <br>
+                Deportes:
+                <input type="checkbox" name="marcar">Baloncesto
+                <input type="checkbox" name="marcar">Futbol
+                <input type="checkbox" name="marcar">Balonmano
+            </fieldset> <br>
+            <input type="submit" value="subir">
         </form>
     </body>
 </html>
