@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tablas</title>
+        <meta name="author" content="Tu nombre completo">
+        <meta name="description" content="Página personal creada con HTML">
+        <link rel="stylesheet" href="./css/estilostablas.css">
+    </head>
+    <body>
+        <!-- Explicación breve de lo que hace este bloque: El caption Es parta poner un
+        titulo sobre un elemento html, en mi caso es la tabla -->
+        <caption>Horario de clases</caption>
+        <!-- Explicación breve de lo que hace este bloque: L etiqueta table, permite
+        meter etiquetas hijos de la etiqueta padre table, como thead tbody tfooy, tr,
+        th, o td -->
+        <table>
+            <!-- Explicación breve de lo que hace este bloque: Aqui he puesto la etiqueta
+            thead que es una etiqueta semantica para identificar la cabezera de una tabla,
+            la etiqueta tr es para poner filas o columnas y th es para subrrayar en negrita
+            las palabras que se pongan dentro de esa etiqueta -->
+            <thead>
+                <tr>
+                    <th>Horario</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+            </thead>
+            <!-- Explicación breve de lo que hace este bloque: La etiqueta tbody es otra
+            etiqueta semantica para identificar el cuerpo de tabla donde estara la mayor
+            parte del contenido, los td son elementos de la tabla pero sin destacar a
+            diferencia de th, tambien he puesto clases para poder aplicar estilos css -->
+            <tbody>
+                <tr>
+                    <td class="horario" rowspan="3">De 8:30 hasta las 11:30</td>
+                    <td>
+                        <span>Lenguaje de marcas</span></td>
+                    <td class="sistemas">Sistemas informaticos</td>
+                    <td class="entornos">Entornos de desarrollo</td>
+                    <td class="base">Base de datos</td>
+                    <td class="programacion">Programacion</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Lenguaje de marcas</span></td>
+                    <td class="sistemas">Sistemas informaticos</td>
+                    <td class="entornos">Entornos de desarrollo</td>
+                    <td class="base">Bases de datos</td>
+                    <td class="programacion">Programacion</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Lenguaje de marcas</span></td>
+                    <td class="sistemas">Sistemas informaticos</td>
+                    <td class="entornos">Entornos de desarrollo</td>
+                    <td class="base">Bases de datos</td>
+                    <td class="programacion">Programacion</td>
+                </tr>
+                <tr>
+                    <td id="recreo" colspan="6">Recreo</td>
+                </tr>
+                <tr>
+                    <td class="horario" rowspan="3">De las 12:00 hasta las 15:00</td>
+                    <td class="programacion">Programacion</td>
+                    <td class="base">Bases de datos</td>
+                    <td class="sostenibilidad">Sostenibilidad</td>
+                    <td class="sistemas">Sistemas informaticos</td>
+                    <td class="ipe">Itinerario para empleabilidad</td>
+                </tr>
+                <tr>
+                    <td class="programacion">Programacion</td>
+                    <td class="base">Bases de datos</td>
+                    <td class="sistemas">Sistemas informaticos</td>
+                    <td class="sistemas">Sistemas informaticos</td>
+                    <td class="ipe">Itinerario para empleabilidad</td>
+                </tr>
+                <tr>
+                    <td class="programacion">Programacion</td>
+                    <td class="base">Bases de datos</td>
+                    <td class="sistemas">Sistemas informaticos</td>
+                    <td class="digitalizacion">Digitalizacion</td>
+                    <td class="ipe">Itinerario para empleabilidad</td>
+                </tr>
+            </tbody>
+            <!-- Explicación breve de lo que hace este bloque: Y en la etiqueta semantica
+            tfoot la he puesto para identificar el pie de la tabla el id lo he puesto como
+            un identificador unico del elemento de la tabla, para aplicar estilo css solo a
+            ese elemento -->
+            <tfoot>
+                <tr>
+                    <td id="davante" colspan="6">Davante Medac</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

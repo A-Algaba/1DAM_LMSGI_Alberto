@@ -1,13 +1,14 @@
+/*para aplicar estilos css a la tabla como bordes*/
 table {
     border: solid black;
 }
-
+/*Aqui he aplicado estilos css a los eleentos de las tablas*/
 td,
 th,
 tr {
     border: solid black;
 }
-
+/*Y aqui he aplicado estilos css a los elementos de dentro de las tablas con colores para que quede mejor*/
 span {
     background-color: brown;
     color: whitesmoke;
