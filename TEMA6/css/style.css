@@ -1,0 +1,21 @@
+/* Bordes generales para visualizar la estructura HTML5 */
+
+/* Cabecera y pie */
+header, main, footer {
+  border: 2px solid red; /* Bordes rojos*/
+}
+
+/* Secciones y artículos */
+section, aside, nav {
+  border: 2px solid green; /* Bordes verdes*/
+}
+
+article {
+  border: 2px solid blue; /* Bordes azules */
+}
+
+/*Ajustar tamaño de imagen*/
+img {
+  width: 10em;
+  height: 10em;
+}
