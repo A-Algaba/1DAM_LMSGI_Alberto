@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de html</title>
+</head>
+<body>
+     <form action="proceso.php" method="post">
+		<fieldset>
+		  <legend><b>Datos personales</b></legend>
+			<p><b>Fecha:</b> <input type="date"></p>
+		    <p><b>Nombre:</b> <input type="text" name="nombre" 
+			            size="45" 
+						placeholder="Indica nombre completo"></p>
+			<p><b>Edad:</b> <input type="text" name="edad" 
+			            size="3"></p>
+            <p><b>Correo:</b> <input type="email"></p>						
+		</fieldset>
+		<fieldset>
+		  <legend><b>Datos de interés</b></legend>
+			<p><b>¿Estás casado?:</b>
+               <input type="radio" name="p1"> Sí
+               <input type="radio" name="p1"> No
+            </p>
+			<p><b>Número de hijos:</b>
+			   <input type="number" min="0" max="5" size="3"> 
+			</p>
+			<p><b>Sueldo: (1000€ - 2000€)</b>
+			   <input type="range" min="1000" max="2000" step="100"> 
+			</p>
+		    <p><b>Deportes:</b>
+               <input type="checkbox" name="p2"> Baloncesto
+               <input type="checkbox" name="p2"> Fútbol
+               <input type="checkbox" name="p2"> Ciclismo
+            </p>
+			<p><b>¿Qué color te gusta?</b>
+			   <input type="color"> 
+			</p>
+			<p><b>Matrícula de coche</b>
+			   <input type="text" pattern="\d{4}[A-Z]{3}"> 
+			</p>
+			<p><b>Porcentaje del proyecto finalizado</b>
+			   <progress max="100" value="35"> 
+			</p>
+        </fieldset>
+		<br>
+		<input type="submit" value="Enviar">
+	  </form>
+</body>
+</html>
