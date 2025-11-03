@@ -1,0 +1,67 @@
+h1{
+    background-color: black;
+    color: white;
+}
+
+.titulo {
+    background-color: orangered;
+}
+
+.titulo:nth-of-type(1) {
+    color: blue;
+    font-size: 2em;
+}
+
+.titulo:nth-of-type(2) {
+    color: green;
+    font-size: 2em;
+}
+
+.titulo:nth-of-type(3) {
+    color: yellow;
+    font-size: 2em;
+}
+
+.titulo:nth-of-type(4) {
+    color: mediumspringgreen;
+    font-size: 2em;
+}
+
+.titulo:nth-of-type(5) {
+    color: white;
+    font-size: 2em;
+}
+
+.titulo:nth-of-type(6) {
+    color: orange;
+    font-size: 2em;
+}
+
+div {
+    background-color: gray;
+    border: black 3px solid;
+}
+
+.span1{
+    color: blue;
+}
+
+.span2{
+    color: green;
+}
+
+.span3{
+    color: yellow;
+}
+
+.span4{
+    color: mediumspringgreen;
+}
+
+.span5{
+    color: white;
+}
+
+.span6{
+    color: orange;
+}
