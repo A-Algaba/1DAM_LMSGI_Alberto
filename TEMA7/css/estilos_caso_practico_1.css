@@ -1,0 +1,39 @@
+h1 {
+    border: 3px solid blue;
+    width: 10em;
+}
+
+#lista1 :first-child {
+    color: greenyellow;
+}
+
+#lista2 :nth-last-of-type(4) {
+    color: greenyellow;
+}
+
+#lista1 {
+    color: red;
+    font-weight: bold;
+}
+
+#lista2 {
+    color: red;
+    font-weight: bold;
+}
+
+#p1{
+    background-color: gray;
+    color: whitesmoke;
+    width: 20em;
+}
+
+#p2{
+    background-color: black;
+    color: white;
+    width: 20em;
+}
+
+#p3 {
+    background-color: aqua;
+    width: 20em;
+}

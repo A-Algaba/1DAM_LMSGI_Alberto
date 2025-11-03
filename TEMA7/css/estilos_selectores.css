@@ -1,0 +1,41 @@
+*{
+    color: blue;
+}
+p {
+    text-align: center;
+}
+
+.miclase{
+    border:solid 1px red;
+}
+
+#miid{
+    background-color: cyan;
+}
+
+ul li {
+    background-color: gray;
+}
+/*Se aplica en los ul estilo css a los li*/
+
+h1, h2 {
+    border: solid 3px green;
+}
+
+p > a {
+    background-color: yellow;
+}
+/*El a es hijo directo de el parrafo*/
+
+p + div{
+    border:solid 2px blue;
+}
+/*Elemento div es hermano de un p*/
+
+p[lang="es"]{
+    background-color: red;
+}
+
+p[lang="en"]{
+    background-color: orange;
+}
