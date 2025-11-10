@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tablas</title>
+    <style>
+        table {
+            caption-side: bottom;
+            border-spacing: 15px;
+            width: 100%;
+            border: solid 3px blue;
+        }
+        th, td {
+            border: solid 1px black;
+            height: 40px;
+            vertical-align: middle;
+            text-align: center;
+        }
+        th {
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Provincia</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Málaga</b></td>
+                <td>0,54€</td>
+            </tr>
+            <tr>
+                <td><b>Granada</b></td>
+                <td>0,45€</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Promedio</th>
+                <th>0,5€</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

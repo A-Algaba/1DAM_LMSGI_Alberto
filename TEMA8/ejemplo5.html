@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pseudoclases y Pseudoelementos</title>
+    <style>
+        ul li:first-child {color: red;}
+        ul li:last-child {color: green;}
+        ul li:nth-child(2) {color: blue;}
+        a:link {color: blue;}
+        a:visited {color: red;}
+        a:hover {background-color: yellow;}
+        li::first-letter {text-transform: UPPERCASE;}
+        p::after {content: " - Esto es un párrafo";}
+        /*NOTA: en los nth-child, tambien se puede usar con (even) para dar estilo css a los hijos pares, y (odd) para los impares*/
+    </style>
+</head>
+<body>
+    <p>PAISES</p>
+    <ul>
+        <li>españa</li>
+        <li>bélgica</li>
+        <li>francia</li>
+    </ul>
+
+    <p>MENU</p>
+    <a href="#e1">Inicio</a>
+    <a href="#e2">Servicios</a>
+    <a href="#e3">Contacto</a>
+</body>
+</html>
