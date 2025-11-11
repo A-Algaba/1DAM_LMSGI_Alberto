@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana;
+}
+
+#viaje{
+    background-image: url(../img/imagen-avion-fondo.avif);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 600px 450px;
+    width: 50%;
+    border: solid 2px chocolate;
+    padding: 15px;
+    margin-left: 25%;
+}
+
+#apartado1{
+    color: white;
+    background-color: chocolate;
+    padding: 5px;
+    text-align: center;
+    border: solid 4px black;
+}
+
+.apartado2{
+    background-color: #e8d5d1;
+    padding: 5px;
+    border: solid 1px black;
+}
+
+.contenido{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}

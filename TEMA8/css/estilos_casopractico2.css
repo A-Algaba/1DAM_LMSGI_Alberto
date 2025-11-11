@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+#titulo{
+    text-align: center;
+    font-family: Verdana;
+    color: blue;
+    letter-spacing: 3px;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 25%;
+    border: solid 3px black;
+}
+
+th{
+    text-align: center;
+    padding: 8x;
+    font-family: Verdana;
+    font-size: 1.5rem;
+    background-color: #069206ce;
+    color: white;
+}
+
+td{
+    text-align: center;
+    padding: 8px;
+    font-size: 1.5rem;
+}
+
+.numero{
+    text-align: right;
+}
+
+tr{
+    border: solid 1px black;
+}
+
+tr:nth-child(even){
+    background-color: #c4c1c1;
+}
+
+tr:hover{
+    background-color: gray;
+}
