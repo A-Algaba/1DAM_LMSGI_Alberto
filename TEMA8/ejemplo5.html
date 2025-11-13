@@ -3,13 +3,13 @@
 <head>
     <title>Pseudoclases y Pseudoelementos</title>
     <style>
-        ul li:first-child {color: red;}
-        ul li:last-child {color: green;}
-        ul li:nth-child(2) {color: blue;}
-        a:link {color: blue;}
-        a:visited {color: red;}
+        ul li:first-child {color: red;}/*aplica estilo css al primer hijo de el elemento padre*/
+        ul li:last-child {color: green;}/*aplica estilo css al ultimo hijo de el elemento padre*/
+        ul li:nth-child(2) {color: blue;}/*aplica estilo css a cualquier hijo de el elemento padre que sea especificado*/
+        a:link {color: blue;}/*Poner colores a los links de las paginas web*/
+        a:visited {color: red;}/*Si se ha visitado, se pone de color color, para indicar el el ink lo hemos pinchado*/
         a:hover {background-color: yellow;}
-        li::first-letter {text-transform: UPPERCASE;}
+        li::first-letter {text-transform: uppercase;}/*primera letra de los texto en mayuscula*/
         p::after {content: " - Esto es un párrafo";}
         /*NOTA: en los nth-child, tambien se puede usar con (even) para dar estilo css a los hijos pares, y (odd) para los impares*/
     </style>
