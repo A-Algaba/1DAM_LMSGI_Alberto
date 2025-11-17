@@ -1,0 +1,169 @@
+/*
+el * sirve para poner una regla css en todo el documento html, 
+que en este caso, estoy poniendo la regla de que todo el css, 
+sea el tipo de letra verdana
+*/
+
+* {
+    font-family: Verdana;
+}
+
+/*Aqui se editar color de fondo de el cuerpo del documento html*/
+body {
+    background-color: #a9a9f5;
+}
+
+/*
+Aplicamos los siguientes estilos css a la caja principal donde 
+esta todo el contenido, y aplicamos una imagen de fondo al contenido
+*/
+#contenido {
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+    border: 2px solid blue;
+    padding: 20px;
+    background-image: url("../img/fondo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600px 500px;
+}
+
+/*editar el menu de el contenido*/
+
+#menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+/*esta regla css sirve para que cuando pase el raton por encima de los elementos a, se cambiaran de color*/
+a:hover {
+    background-color: #1e1d1d;
+    color: orangered;
+}
+
+#menu {
+    background-color: #cdcdfe;
+    padding-left: 10em;
+}
+
+/*editar titulo principal de el contenido*/
+#titulo {
+    background-color: #b4b4ff;
+    text-align: center;
+    border: 2px solid blue;
+    color: #030384;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+
+/*editar subtitulos de los contenidos*/
+.subtitulo {
+    background-color: #a3a3f1;
+    text-align: justify;
+    border: 2px solid blue;
+    color: #020296;
+    padding: 20px;
+}
+
+
+/*añadir padding a el texto*/
+.texto{
+    padding: 10px;
+}
+
+/*editar la tabla, con las siguientes reglas css*/
+
+table {
+    border-collapse: collapse;
+    caption-side: bottom;
+    color: blue;
+    width: 100%;
+}
+
+table th {
+    color: red;
+    background-color: #acacf5;
+    border: 2px solid blue;
+    text-align: center;
+    padding: 10px;
+}
+
+table td {
+    padding: 5px;
+    text-align: center;
+    border: 2px solid blue;
+}
+
+/*las siguientes filas pares de las tablas tendran el color de fondo asignado*/
+tr:nth-child(odd) {
+    background-color: #a8a8e6;
+}
+
+/*
+las filas de las tablas al pasar el raton,
+por encima de las filas de la tabla cambian
+el color de fondo y el color de la letra
+*/
+tr:hover {
+    background-color: #1e1d1d;
+    color: orangered;
+}
+
+caption {
+    color: blue;
+}
+
+/*editar la lista*/
+
+/*
+en esta regla css, el primer hijo de la lista ul, su primer hijo li,
+se aplica el color asignado, y se pone la letra en negrita
+*/
+#lista :first-child {
+    color: blue;
+    font-weight: bold;
+}
+
+/*
+y en esta regla css se indica que al primer hijo de ul, 
+su primero hijo li, su primer texto sera en mayuscula
+*/
+#lista :first-child::first-letter {
+    color: blue;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*
+y en esta regla css se indica que al ultimo hijo de ul, 
+su ultimo hijo li, se aplica el color asignado y se pone la letra en negrita
+*/
+#lista :last-child {
+    color: blue;
+    font-weight: bold;
+}
+
+/*
+y en esta regla css se indica que al ultimo hijo de ul, 
+su ultimo hijo li, su primer texto sera en mayuscula
+*/
+#lista :last-child::first-letter {
+    color: blue;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*editar el nombre de css despues de el contenido html puesto*/
+
+#autor::after {
+    content: " -Alberto Algaba Calderón";
+}
