@@ -1,13 +1,36 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    width: 100%;
+}
+
+body {
+    background-image: url("/TEMA9/proyecto/img/background-image.jpg");
+    opacity: 30;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
 }
 
 h3 {
-    margin-top: 20px;
-    margin-left: 15px;
     text-decoration: underline;
+    color: white;
+}
+
+h3:nth-of-type(1) {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+h3:nth-of-type(2) {
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-bottom: 10px;
 }
 
 nav {
@@ -25,6 +48,10 @@ li {
     padding: 15px;
 }
 
+ul li:last-child {
+    opacity: 0;
+}
+
 #novedades {
     float: right;
 }
@@ -37,31 +64,90 @@ a {
 a:hover {
     background-color: white;
     color: black;
+    transition: 2s;
 }
 
 #titulo {
-    background-color: aquamarine;
+    background-image: radial-gradient(#0fe0bd, #0986ec);
     padding: 2em;
     text-align: center;
+    border-bottom: 3px solid black;
+    text-shadow: 10px 10px 10px #000000;
 }
-
 
 #info {
     width: 500px;
-    height: 200px;
+    height: 500px;
     margin-top: 20px;
     border: 3px solid black;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px grey;
+    box-shadow: 10px 10px 10px #ffffff;
     margin-left: 20px;
     padding: 10px;
+    background-color: #000000;
+    color: white;
 }
 
-img {
+#imagen2 {
     float: right;
-    width: 100px;
+    width: 80%;
+    padding-right: 20%;
+    padding-top: 10%;
 }
 
 #columnas {
-    column-count: 2;
+    width: 500px;
+    height: 70px;
+    border: 3px solid black;
+    border-radius: 10px;
+    column-count: 3;
+    background-image: radial-gradient(rgb(240, 14, 138), #000000);
+    color: white;
+    margin-left: 10px;
+}
+
+span {
+    color: gold;
+    text-decoration: underline;
+}
+
+#especial {
+    opacity: 1;
+}
+
+aside span {
+    color: #000000;
+}
+
+aside {
+    width: 20%;
+    height: 20em;
+    float: right;
+    margin-top: 5%;
+    background-image: radial-gradient(#c2e622b4, #deb887);
+}
+
+.imagen {
+    width: 30px;
+    position: absolute;
+    z-index: 2;
+    transform: rotate(45deg);
+}
+
+.caja {
+    display: inline-block;
+    width: 10em;
+    height: 5em;
+    background-color: whitesmoke;
+    border: 3px solid #1888f0;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+footer {
+    height: 3em;
+    background-color: #000000;
+    color: white;
+    text-align: center;
 }
