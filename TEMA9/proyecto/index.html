@@ -4,74 +4,83 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cine</title>
+        <!--enlazamos una hoja de estilos css a nuestro fichero principal de html-->
         <link rel="stylesheet" href="./css/estilos.css">
+        <!--Enlazamos una hoja de estiloss css de una fuente de google fonts-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     </head>
     <body>
+        <!--Primero se crea un contenedor principal que actuara como el contenedor
+        padre, asi podra almacenar, todo el contenido html-->
         <div id="container">
+            <!--Etiqueta semantica nav, para poder, guardar todos los enlaces y opciones de
+            la pagina web-->
             <nav>
                 <ul>
                     <li>
-                        <a href="">Inicio</a>
+                        <a href="./pagina-web-construccion.html" target="_blank">Inicio</a>
                     </li>
                     <li>
-                        <a href="">Catalogo</a>
+                        <a href="./pagina-web-construccion.html" target="_blank">Catalogo</a>
                     </li>
                     <li>
-                        <a href="">Contacto</a>
+                        <a href="./pagina-web-construccion.html" target="_blank">Contacto</a>
                     </li>
                     <li id="novedades">
-                        <a href="">Novedades</a>
+                        <a href="./pagina-web-construccion.html" target="_blank">Novedades</a>
                     </li>
                 </ul>
             </nav>
             <div id="titulo">
                 <h1>Cines experience</h1>
             </div>
-            <!--Barra lateral-->
+            <!--Barra lateral para introducir contenido-->
             <aside>
                 <article>
                     <span>Conocenos en:
                     </span>
                     <ul>
                         <li>
-                            <a href="https://www.instagram.com/">Instagram</a>
+                            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
                         </li>
                         <img class="imagen" src="./img/logo-instagram.webp" alt="logo-instagram">
                         <li>
-                            <a href="https://x.com/">Twitter</a>
+                            <a href="https://x.com/" target="_blank">Twitter</a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/?locale=es_ES">Facebook</a>
+                            <a href="https://www.facebook.com/?locale=es_ES" target="_blank">Facebook</a>
                         </li>
                         <li>
-                            <a href="https://www.whatsapp.com/?lang=es">WhatsApp</a>
+                            <a href="https://www.whatsapp.com/?lang=es" target="_blank">WhatsApp</a>
                         </li>
                         <img class="imagen" src="./img/logo-whatsApp.avif" alt="logo-instagram">
                         <li>
-                            <a href="https://web.telegram.org/a/">Telegram</a>
+                            <a href="https://web.telegram.org/a/" target="_blank">Telegram</a>
                         </li>
                         <li>
                             <a
-                                href="https://www.tiktok.com/signup?lang=es-419&redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fupload%3Flang%3Des">Tik Tok</a>
+                                href="https://www.tiktok.com/signup?lang=es-419&redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fupload%3Flang%3Des"
+                                target="_blank">Tik Tok</a>
                         </li>
                     </ul>
                 </article>
             </aside>
+            <!--Ponemos caja de informacion con un identificador unico para meter texto e
+            imagenes-->
             <h3>Descripcion previa</h3>
             <section id="info">
                 <p>Millones de peliculas en cines experience, te esperan, podras disfrutar de
-                    ellas gracias a las salas macro experience, con lo mejor de
-                    <br>
-                    calidad visual y audio de ultima generacion
+                    ellas gracias a las salas macro experience, con lo mejor de calidad visual y
+                    audio de ultima generacion
                     <br>
                     <hr>
                     <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus unde
                         rem culpa doloremque at ipsam sequi ut eius ad dolore! Doloribus illo nulla modi
                         pariatur omnis adipisci, maiores totam repellendus?</span>
                 </p>
-                <img id="imagen2" src="./img/imagen-logo.png" alt="imagen-cine">
+                <img id="imagen-info" src="./img/imagen-logo.png" alt="imagen-cine">
             </section>
+            <!--Otra caja de seccioness para aplicar, mas contenido-->
             <h3>Tipos de salas</h3>
             <section id="columnas">
                 <p>Las salas
@@ -84,15 +93,25 @@
                     <span>estandar</span>
                     con un precio de 8,90€</p>
             </section>
+            <!--Otra seccion para las categorias-->
             <h3>Categorias</h3>
-            <div class="caja">Terror</div>
+            <div class="caja">
+                <article>Terror</article>
+            </div>
             <div class="caja"></div>
-            <div class="caja">Comedia</div>
+            <div class="caja">
+                <article>Comedia</article>
+            </div>
             <div class="caja"></div>
-            <div class="caja">Ciencia ficcion</div>
+            <div class="caja">
+                <article>Ciencia ficcion</article>
+            </div>
             <div class="caja"></div>
-            <div class="caja">Animacion</div>
-            <footer>Pagina desarrollada por Alberto Algaba Calderón</footer>
+            <div class="caja">
+                <article>Animacion</article>
+            </div>
+            <!--Pie de pagina-->
+            <footer>Pagina desarrollada por Alberto Algaba Calderón - 2025 ©</footer>
         </div>
     </body>
 </html>

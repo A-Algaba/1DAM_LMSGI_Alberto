@@ -1,3 +1,8 @@
+/*Regla general para indicar a todo el contenido de cajas sea border-box
+y  tambien que los margin y padding sean 0, para que assi los elementos html
+puedan ocupar  el  contenido del  documento sin problemas
+*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,9 +10,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/*Regla de css para indicar al contenedor padre que ocupe el 100% de el contenedor*/
+
 #container {
     width: 100%;
 }
+
+/*Regla de css para indicar al cuerpo de el contenido que haya una imagen de fondo
+y que no se repita,  y su posicion sea hacia abajo, y su tamaño ocupe todo el contenido de el cuerpo
+*/
 
 body {
     background-image: url("/TEMA9/proyecto/img/background-image.jpg");
@@ -16,6 +27,10 @@ body {
     background-position: bottom;
     background-size: cover;
 }
+
+/*Reglas generales para indicar a el h3 que tennga una linea de decoracion  y un  color personalizado,
+tambien indicar a algunos h3 especificios, quew se les aplique un  margen interior y exterior especificios
+*/
 
 h3 {
     text-decoration: underline;
@@ -38,35 +53,53 @@ h3:nth-of-type(3) {
     margin-top: 2%;
 }
 
+/*Aplicar estilos css a la barra de navegacion*/
+
 nav {
     background-color: black;
     color: white;
     height: 50px;
 }
 
+/*Quitar las viñetas de decoracion de las listas*/
+
 ul {
     list-style: none;
 }
+
+/*Indicar a los elementos hijos de ul que se ubiquen a la izquierda , y tenga un margen exterior especifico*/
 
 li {
     float: left;
     padding: 15px;
 }
 
+/*Indicar a una de los elementos del nav con identificador unico, que se ubique a la derecha*/
+
 #novedades {
     float: right;
 }
+
+/*Personalizar con un color y quitando decoracion a los enlaces puestos del nav*/
 
 a {
     color: white;
     text-decoration: none;
 }
 
+/*Aplicar regla css que indique que cuando se pase el cursor del raton por encima del elemento,
+se cambie el color, el color de fondo, y haya una animacion o transiccion de dicho cambio de color*/
+
 a:hover {
     background-color: white;
     color: black;
     transition: 2s;
 }
+
+/*Regla css para personalizar una de las cajas hijas del elemento padre aplicando un color
+linear gradiente, y poniendo una sombra de texto, y posicionandola con margenes interiores 
+y alineandola al centro
+*/
 
 #titulo {
     background-image: radial-gradient(#0fe0bd, #0986ec);
@@ -76,13 +109,14 @@ a:hover {
     text-shadow: 10px 10px 10px #000000;
 }
 
+/*Aplicamos reglas css a el contenido principal con identificador unico, donde tendra una posicioon statica*/
+
 #info {
     width: 500px;
     height: 500px;
     margin-top: 20px;
     border: 3px solid black;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px #ffffff;
     margin-left: 20px;
     padding: 10px;
     background-color: #000000;
@@ -90,12 +124,18 @@ a:hover {
     position: static;
 }
 
-#imagen2 {
+/*Personalizamos la imagen y que este ubicada a la derecha*/
+
+#imagen-info {
     float: right;
     width: 80%;
     padding-right: 20%;
     padding-top: 10%;
 }
+
+/*Personalizamos otra seccion, y en su contenido se dividira, por columnas de 3 secciones y color de
+fondo gradiente y unos bordes redondeados de decoracion, y aplicamos margenes interiores
+*/
 
 #columnas {
     width: 500px;
@@ -108,6 +148,8 @@ a:hover {
     margin-left: 10px;
 }
 
+/*Aplicar estilos css a elementos html especificos con la etiqueta span*/
+
 span {
     color: gold;
     text-decoration: underline;
@@ -115,11 +157,15 @@ span {
 
 aside span {
     color: #000000;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px #000000;
 }
+
+/*Aplicar estilo css, a la barra lateral de la pagina web y que su posicion sea relativa*/
 
 aside {
     width: 20%;
-    height: 20em;
+    height: 15em;
     float: right;
     margin-top: 5%;
     background-image: radial-gradient(#c2e622b4, #deb887);
@@ -142,6 +188,13 @@ aside {
     border-radius: 10px;
     margin: 10px;
     text-align: center;
+    padding-top: 1.8em;
+}
+
+.caja:hover {
+    background-color: #0fe0bd;
+    transition: 2s;
+    transform: scale(1.2);
 }
 
 .caja:nth-of-type(3) {
@@ -154,6 +207,10 @@ aside {
 
 .caja:nth-of-type(7) {
     opacity: 0;
+}
+
+article {
+    font-weight: bold;
 }
 
 footer {
