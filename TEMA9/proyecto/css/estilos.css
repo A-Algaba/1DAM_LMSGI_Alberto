@@ -134,13 +134,14 @@ Aplicamos reglas css a el contenido principal con identificador unico, donde ten
     width: 500px;
     height: 500px;
     margin-top: 20px;
-    border: 3px solid black;
+    border: 3px solid #695e5e;
     border-radius: 10px;
     margin-left: 20px;
     padding: 10px;
     background-color: #000000;
     color: white;
     position: static;
+    box-shadow: 10px 10px 10px #333333;
 }
 
 /*
@@ -168,6 +169,7 @@ fondo gradiente y unos bordes redondeados de decoracion, y aplicamos margenes in
     background-image: radial-gradient(rgb(240, 14, 138), #000000);
     color: white;
     margin-left: 10px;
+    box-shadow: 10px 10px 10px #000000;
 }
 
 /*
