@@ -26,7 +26,6 @@ y que no se repita,  y su posicion sea hacia abajo, y su tamaño ocupe todo el c
 
 body {
     background-image: url("/TEMA9/proyecto/img/background-image.jpg");
-    opacity: 30;
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
