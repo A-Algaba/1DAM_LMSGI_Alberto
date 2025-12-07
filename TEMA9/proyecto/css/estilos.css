@@ -1,5 +1,6 @@
-/*Regla general para indicar a todo el contenido de cajas sea border-box
-y  tambien que los margin y padding sean 0, para que assi los elementos html
+/*
+Regla general para indicar a todo el contenido de cajas sea border-box
+y tambien que los margin y padding sean 0, para que assi los elementos html
 puedan ocupar  el  contenido del  documento sin problemas
 */
 
@@ -10,13 +11,16 @@ puedan ocupar  el  contenido del  documento sin problemas
     font-family: 'Roboto', sans-serif;
 }
 
-/*Regla de css para indicar al contenedor padre que ocupe el 100% de el contenedor*/
+/*
+Regla de css para indicar al contenedor padre que ocupe el 100% de el contenedor
+*/
 
 #container {
     width: 100%;
 }
 
-/*Regla de css para indicar al cuerpo de el contenido que haya una imagen de fondo
+/*
+Regla de css para indicar al cuerpo de el contenido que haya una imagen de fondo
 y que no se repita,  y su posicion sea hacia abajo, y su tamaño ocupe todo el contenido de el cuerpo
 */
 
@@ -28,7 +32,8 @@ body {
     background-size: cover;
 }
 
-/*Reglas generales para indicar a el h3 que tennga una linea de decoracion  y un  color personalizado,
+/*
+Reglas generales para indicar a el h3 que tennga una linea de decoracion  y un  color personalizado,
 tambien indicar a algunos h3 especificios, quew se les aplique un  margen interior y exterior especificios
 */
 
@@ -53,7 +58,9 @@ h3:nth-of-type(3) {
     margin-top: 2%;
 }
 
-/*Aplicar estilos css a la barra de navegacion*/
+/*
+Aplicar estilos css a la barra de navegacion
+*/
 
 nav {
     background-color: black;
@@ -61,34 +68,44 @@ nav {
     height: 50px;
 }
 
-/*Quitar las viñetas de decoracion de las listas*/
+/*
+Quitar las viñetas de decoracion de las listas
+*/
 
 ul {
     list-style: none;
 }
 
-/*Indicar a los elementos hijos de ul que se ubiquen a la izquierda , y tenga un margen exterior especifico*/
+/*
+Indicar a los elementos hijos de ul que se ubiquen a la izquierda , y tenga un margen exterior especifico
+*/
 
 li {
     float: left;
     padding: 15px;
 }
 
-/*Indicar a una de los elementos del nav con identificador unico, que se ubique a la derecha*/
+/*
+Indicar a una de los elementos del nav con identificador unico, que se ubique a la derecha
+*/
 
 #novedades {
     float: right;
 }
 
-/*Personalizar con un color y quitando decoracion a los enlaces puestos del nav*/
+/*
+Personalizar con un color y quitando decoracion a los enlaces puestos del nav
+*/
 
 a {
     color: white;
     text-decoration: none;
 }
 
-/*Aplicar regla css que indique que cuando se pase el cursor del raton por encima del elemento,
-se cambie el color, el color de fondo, y haya una animacion o transiccion de dicho cambio de color*/
+/*
+Aplicar regla css que indique que cuando se pase el cursor del raton por encima del elemento,
+se cambie el color, el color de fondo, y haya una animacion o transiccion de dicho cambio de color
+*/
 
 a:hover {
     background-color: white;
@@ -96,7 +113,8 @@ a:hover {
     transition: 2s;
 }
 
-/*Regla css para personalizar una de las cajas hijas del elemento padre aplicando un color
+/*
+Regla css para personalizar una de las cajas hijas del elemento padre aplicando un color
 linear gradiente, y poniendo una sombra de texto, y posicionandola con margenes interiores 
 y alineandola al centro
 */
@@ -109,7 +127,9 @@ y alineandola al centro
     text-shadow: 10px 10px 10px #000000;
 }
 
-/*Aplicamos reglas css a el contenido principal con identificador unico, donde tendra una posicioon statica*/
+/*
+Aplicamos reglas css a el contenido principal con identificador unico, donde tendra una posicion estatica
+*/
 
 #info {
     width: 500px;
@@ -124,7 +144,9 @@ y alineandola al centro
     position: static;
 }
 
-/*Personalizamos la imagen y que este ubicada a la derecha*/
+/*
+Personalizamos la imagen y que este ubicada a la derecha
+*/
 
 #imagen-info {
     float: right;
@@ -133,7 +155,8 @@ y alineandola al centro
     padding-top: 10%;
 }
 
-/*Personalizamos otra seccion, y en su contenido se dividira, por columnas de 3 secciones y color de
+/*
+Personalizamos otra seccion, y en su contenido se dividira, por columnas de 3 secciones y color de
 fondo gradiente y unos bordes redondeados de decoracion, y aplicamos margenes interiores
 */
 
@@ -148,7 +171,9 @@ fondo gradiente y unos bordes redondeados de decoracion, y aplicamos margenes in
     margin-left: 10px;
 }
 
-/*Aplicar estilos css a elementos html especificos con la etiqueta span*/
+/*
+Aplicar estilos css a elementos html especificos con la etiqueta span
+*/
 
 span {
     color: gold;
@@ -161,7 +186,9 @@ aside span {
     text-shadow: 10px 10px 10px #000000;
 }
 
-/*Aplicar estilo css, a la barra lateral de la pagina web y que su posicion sea relativa*/
+/*
+Aplicar estilo css, a la barra lateral de la pagina web y que su posicion sea relativa
+*/
 
 aside {
     width: 20%;
@@ -172,12 +199,22 @@ aside {
     position: relative;
 }
 
+/*
+Aplicamos estilo css a las imagenes de el aside, para que tenga una rotacion
+y se pongan por encima de el elemento html, y su posicion sea absooluta
+*/
+
 .imagen {
     width: 30px;
     position: absolute;
     z-index: 2;
     transform: rotate(45deg);
 }
+
+/*
+En este caso, se aplican estilos css a las cajas, que su posicion sea en linea, y
+tengan su tamaño personalizado, tengan sus bordes personalizados, colores, etc
+*/
 
 .caja {
     display: inline-block;
@@ -189,13 +226,27 @@ aside {
     margin: 10px;
     text-align: center;
     padding-top: 1.8em;
+    font-weight: bold;
 }
+
+/*
+Esta norma css, idica que al pasar el raton por encima de los elementos html con la clase caja,
+cambia el coplor de fondo, y hay una animacion, de cambio de color, y se va haciendo algo mas grande
+el elemento
+
+*/
 
 .caja:hover {
     background-color: #0fe0bd;
     transition: 2s;
     transform: scale(1.2);
 }
+
+/*
+En esta regla css, estoy indicando que los elementos html de la clase caja, que yo seleccione
+mediante el selector css nth-of-type, que tengan de opacidad 0, es decir, que desaparezcan, pero
+que mantengan su tamaño, para que haya espacio entre los elementos html
+*/
 
 .caja:nth-of-type(3) {
     opacity: 0;
@@ -209,9 +260,9 @@ aside {
     opacity: 0;
 }
 
-article {
-    font-weight: bold;
-}
+/*
+Regla css para editar el footer
+*/
 
 footer {
     height: 3em;
