@@ -58,13 +58,16 @@ h3:nth-of-type(3) {
 }
 
 /*
-Aplicar estilos css a la barra de navegacion
+Aplicar estilos css a la barra de navegacion, la posicion la he puesto como fixed, para que cuando se haga se desplace hacia abajo
+el menu de navegacion siga  en su posicion fija y siga hacia abajo sin cambia su posicion original
 */
 
 nav {
     background-color: black;
     color: white;
     height: 50px;
+    width: 100%;
+    position: fixed;
 }
 
 /*
@@ -121,6 +124,7 @@ y alineandola al centro
 #titulo {
     background-image: radial-gradient(#0fe0bd, #0986ec);
     padding: 2em;
+    padding-top: 5em;
     text-align: center;
     border-bottom: 3px solid black;
     text-shadow: 10px 10px 10px #000000;
