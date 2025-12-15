@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    display:block;
+}
+
+informatica{
+    background-color:chocolate;
+    width:300px;
+    padding:5px;
+    margin-left:10px;
+    margin-bottom:10px;
+    border:solid 3px blue;
+    width:300px;
+}
+
+informatica:before{
+    display:block;
+    content:"Libros de informática";
+    color:white;
+    background-color:black;
+    width:280px;
+}
+
+literatura{
+    background-color:cyan;
+    padding:5px;
+    margin-left:10px;
+    margin-bottom:10px;
+    border:solid 3px red;
+    width:300px;
+}
+
+literatura:before{
+    display:block;
+    content:"Libros de literatura";
+    color:white;
+    background-color:black;
+    width:280px;
+}
+
+libro{
+    border-bottom:solid 1px black;
+}

@@ -1,0 +1,21 @@
+nombre {
+    font-size: 2rem;
+    display: block;
+    border: 2px solid chocolate;
+    width: 10em;
+    padding: 10px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+diasentrega {
+    color: red;
+    display: block;
+    padding-left: 50px;
+    font-size: 1.5rem;
+}
+
+#especial {
+    background-color: cyan;
+}
