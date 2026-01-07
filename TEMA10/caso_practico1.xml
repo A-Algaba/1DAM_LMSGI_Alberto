@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE software[
+<!--Definicion de elementos-->
+<!ELEMENT software (programa+)>
+<!ELEMENT programa (titulo,(español|ingles),precio,categoria,descripcion,departamentos,web?,caratula?)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT ingles EMPTY>
+<!ELEMENT español EMPTY>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT departamentos (departamento+)>
+<!ELEMENT departamento (#PCDATA)>
+<!ELEMENT web (#PCDATA)>
+<!ELEMENT caratula (#PCDATA)>
+<!ATTLIST programa codigo CDATA #REQUIRED>
+<!ATTLIST programa version ID #REQUIRED>
+<!ATTLIST programa año CDATA #IMPLIED>
+<!ATTLIST programa sistema_operativo (windows|mac) "windows">
+]>
+
+<software>
+    <programa codigo="codigo" version="w3" sistema_operativo="windows">
+        <titulo>contasoft</titulo>
+        <español />
+        <precio>38 euros</precio>
+        <categoria>contabilidad</categoria>
+        <descripcion>programa de contabilidad</descripcion>
+        <departamentos>
+            <departamento>departamento de informatica</departamento>
+        </departamentos>
+        <web>https://web.contasoft.com</web>
+        <caratula>caratula de contasoft</caratula>
+    </programa>
+</software>
