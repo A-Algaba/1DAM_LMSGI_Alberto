@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<libro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="biblioteca.xsd">
+
+    <titulo>Introduccion a XML</titulo>
+    <autor>Alberto Perez</autor>
+    <autor>Tomas Ruiz</autor>
+    <editorial>Parainfo</editorial>
+
+</libro>
