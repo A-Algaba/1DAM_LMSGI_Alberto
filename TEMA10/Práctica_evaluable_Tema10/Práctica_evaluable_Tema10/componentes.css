@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    display: block;
+}
+
+
+/*aplicar css de fabricante para el contenido Componentes de Informatica*/
+
+fabricante::before {
+    display: block;
+    content: "Componentes de Informatica";
+    background-color: black;
+    color: white;
+    width: 12em;
+}
+
+/*aplicar css de fabricante*/
+
+fabricante {
+    border-bottom: 1px solid black;
+    width: 18em;
+}
+
+/*Aplicar css de tienda*/
+
+tienda {
+    border-bottom: 1px solid black;
+    width: 18em;
+}
+
+/*Aplicar css de cotenido*/
+
+contenido {
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+    width: 18em;
+}
+
+/*Aplicar css de componente*/
+
+componente {
+    border: 3px solid blue;
+    width: 20em;
+    height: 15em;
+}
