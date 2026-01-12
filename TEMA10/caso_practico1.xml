@@ -23,7 +23,7 @@
 <software>
     <programa codigo="codigo" version="w3" sistema_operativo="windows">
         <titulo>contasoft</titulo>
-        <español />
+        <español/>
         <precio>38 euros</precio>
         <categoria>contabilidad</categoria>
         <descripcion>programa de contabilidad</descripcion>
