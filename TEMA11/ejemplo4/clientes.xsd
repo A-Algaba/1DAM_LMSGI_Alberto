@@ -1,0 +1,51 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="listaclientes">
+
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cliente" maxOccurs="unbounded">
+                <xs:complexType>
+
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"></xs:element>
+            <xs:element name="apellido" type="xs:string"></xs:element>
+            <xs:choice>
+                <xs:element name="dni" type="tipodni"></xs:element>
+                <xs:element name="nie" type="xs:string"></xs:element>
+            </xs:choice>
+            <xs:element name="compras" type="xs:integer"></xs:element>
+            <xs:element name="regalo" type="xs:string" minOccurs="0"></xs:element>
+        </xs:sequence>
+
+        <xs:attribute name="español" type="tipoespañol" use="required"></xs:attribute>
+
+        </xs:complexType>
+
+        </xs:element>
+
+        </xs:sequence>
+    </xs:complexType>
+
+    </xs:element>
+
+    <!--Tipos personalizados-->
+    <!-- Longitud DNI-->
+     <xs:simpleType name="tipodni">
+
+     <xs:restriction base="xs:string">
+        <xs:length value="9"></xs:length>
+     </xs:restriction>
+
+     </xs:simpleType>
+
+     <xs:simpleType name="tipoespañol">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="si"></xs:enumeration>
+            <xs:enumeration value="no"></xs:enumeration>
+            <xs:enumeration value="SI"></xs:enumeration>
+            <xs:enumeration value="NO"></xs:enumeration>
+        </xs:restriction>
+     </xs:simpleType>
+
+
+</xs:schema>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<listaclientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="clientes.xsd">
+
+    <cliente español="si">
+        <nombre>Juan</nombre>
+        <apellido>Sanchez</apellido>
+        <dni>33456816A</dni>
+        <compras>4500</compras>
+        <regalo>bolsa deporte</regalo>
+    </cliente>
+
+
+    <cliente español="no">
+        <nombre>Jose</nombre>
+        <apellido>Diaz</apellido>
+        <nie>55661289F</nie>
+        <compras>3600</compras>
+    </cliente>
+
+</listaclientes>
