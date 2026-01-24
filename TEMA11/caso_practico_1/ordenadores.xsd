@@ -1,0 +1,27 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ordenadores">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ordenador" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="marca" type="xs:string"></xs:element>
+                            <xs:element  name="procesador" type="xs:string"></xs:element>
+                            <xs:element name="ram" type="xs:string"></xs:element>
+                            <xs:element name="discoduro" type="tipodisco"></xs:element>
+                            <xs:element name="puertosconexion" type="xs:unsignedShort"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="tipodisco">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="ssd"></xs:enumeration>
+            <xs:enumeration value="hdd"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

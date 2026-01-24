@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ordenadores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ordenadores.xsd">
+
+    <ordenador>
+        <marca>MSI</marca>
+        <procesador>amd</procesador>
+        <ram>32</ram>
+        <discoduro>ssd</discoduro>
+        <puertosconexion>10</puertosconexion>
+    </ordenador>
+
+    <ordenador>
+        <marca>Asus</marca>
+        <procesador>intel</procesador>
+        <ram>16</ram>
+        <discoduro>hdd</discoduro>
+        <puertosconexion>4</puertosconexion>
+    </ordenador>
+
+</ordenadores>
