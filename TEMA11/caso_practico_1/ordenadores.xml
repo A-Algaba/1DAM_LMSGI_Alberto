@@ -2,7 +2,7 @@
 
 <ordenadores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ordenadores.xsd">
 
-    <ordenador>
+    <ordenador tipo = "sobremesa">
         <marca>MSI</marca>
         <procesador>amd</procesador>
         <ram>32</ram>
@@ -10,7 +10,7 @@
         <puertosconexion>10</puertosconexion>
     </ordenador>
 
-    <ordenador>
+    <ordenador tipo="portatil">
         <marca>Asus</marca>
         <procesador>intel</procesador>
         <ram>16</ram>

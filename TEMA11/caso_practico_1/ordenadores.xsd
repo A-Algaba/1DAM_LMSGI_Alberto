@@ -11,12 +11,12 @@
                             <xs:element name="discoduro" type="tipodisco"></xs:element>
                             <xs:element name="puertosconexion" type="xs:unsignedShort"></xs:element>
                         </xs:sequence>
+                        <xs:attribute name="tipo" type="xs:string" use="required"></xs:attribute>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-
     <xs:simpleType name="tipodisco">
         <xs:restriction base="xs:string">
             <xs:enumeration value="ssd"></xs:enumeration>
