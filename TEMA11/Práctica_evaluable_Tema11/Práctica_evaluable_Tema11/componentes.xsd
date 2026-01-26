@@ -1,0 +1,51 @@
+<!--Alberto Algaba Calderón-->
+<!--utilizar la el schema de w3.schools-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!--declarar el elemento padre listacomponentes-->
+    <xs:element name="listacomponentes">
+        <!--utilizar complexType y sequence-->
+        <xs:complexType>
+            <xs:sequence>
+                <!--declarar el subelemento componente-->
+                <xs:element name="componente" minOccurs="1" maxOccurs="unbounded">
+                    <!--volver a utilizar complexType y sequence-->
+                    <xs:complexType>
+                        <xs:sequence>
+                            <!--declarar los siguientes elementois hijos-->
+                            <xs:element name="marca" type="xs:string"></xs:element>
+                            <xs:element name="modelo" type="xs:string"></xs:element>
+                            <xs:element name="categoria" type="tipocategoria"></xs:element>
+                            <xs:element name="precio" type="tipoprecio"></xs:element>
+                            <xs:element name="stock" type="xs:unsignedShort" minOccurs="0"></xs:element>
+                            <xs:element name="cantidad" type="xs:unsignedShort" minOccurs="0"></xs:element>
+                            <xs:element name="fecha_alta" type="xs:date"></xs:element>
+                            <xs:element name="garantia" type="xs:unsignedShort" minOccurs="0"></xs:element>
+                            <xs:element name="color" type="xs:string" minOccurs="0"></xs:element>
+                            <xs:element name="cliente_reserva" type="xs:string" minOccurs="0" maxOccurs="2"></xs:element>
+                            <xs:element name="extras" type="xs:string" minOccurs="0" maxOccurs="2"></xs:element>
+                        </xs:sequence>
+                        <!--declarar atributo tipo-->
+                        <xs:attribute name="tipo" type="xs:string" use="required"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!--Lista de categorias de los componentes-->
+    <xs:simpleType name="tipocategoria">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="CPU"></xs:enumeration>
+            <xs:enumeration value="GPU"></xs:enumeration>
+            <xs:enumeration value="RAM"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!--opcion de listado de precios-->
+    <xs:simpleType name="tipoprecio">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="1"></xs:minInclusive>
+            <xs:maxInclusive value="300"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

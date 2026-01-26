@@ -12,7 +12,7 @@
                                 <xs:element name="cilindrada" type="xs:decimal"></xs:element>
                                 <xs:element name="caballos" type="tipocaballos" maxOccurs="unbounded"></xs:element>
                             </xs:choice>
-                            
+
                             <xs:element name="combustible" type="tipocombustible"></xs:element>
                             <xs:element name="precio" type="xs:string"></xs:element>
                             <xs:element name="año" type="tipoaño" minOccurs="0"></xs:element>

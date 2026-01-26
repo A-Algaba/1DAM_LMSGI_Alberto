@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<listacomponentes
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="componentes.xsd">
+
+  <componente tipo="CPU">
+    <marca>Intel</marca>
+    <modelo>i5-12400F</modelo>
+    <categoria>CPU</categoria>
+    <precio>180</precio>
+    <stock>12</stock>
+    <fecha_alta>2025-10-05</fecha_alta>
+    <garantia>24</garantia>
+    <color>Negro</color>
+    <cliente_reserva>12345678Z</cliente_reserva>
+    <cliente_reserva>87654321H</cliente_reserva>
+    <extras>Disipador PastaTermica</extras>
+  </componente>
+
+  <componente tipo="GPU">
+    <marca>NVIDIA</marca>
+    <modelo>RTX4060</modelo>
+    <categoria>GPU</categoria>
+    <precio>299.99</precio>
+    <cantidad>3</cantidad>
+    <fecha_alta>2025-11-20</fecha_alta>
+    <garantia>36</garantia>
+    <extras>Backplate Manual</extras>
+  </componente>
+
+  <componente tipo="RAM">
+    <marca>Corsair</marca>
+    <modelo>Vengeance16GB</modelo>
+    <categoria>RAM</categoria>
+    <precio>75</precio>
+    <fecha_alta>2025-09-12</fecha_alta>
+    <color>Blanco</color>
+  </componente>
+</listacomponentes>
