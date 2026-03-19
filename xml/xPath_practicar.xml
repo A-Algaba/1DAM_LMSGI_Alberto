@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datos_demograficos>
+	<pais nombre="españa">
+		<comunidad nombre="Andalucía">
+		   <poblacion>8414240</poblacion>
+		   <hombres>4147167</hombres>
+		   <mujeres>4267073</mujeres>
+		</comunidad>
+
+		<comunidad nombre="Aragón">
+		   <poblacion>1319291</poblacion>
+		   <hombres>650694</hombres>
+		   <mujeres>668597</mujeres>
+		</comunidad>
+
+		<comunidad nombre="Asturias">
+		   <poblacion>1022800</poblacion>
+		   <hombres>488137</hombres>
+		   <mujeres>534663</mujeres>
+		</comunidad>
+
+		<comunidad nombre="Baleares">
+		   <poblacion>1149460</poblacion>
+		   <hombres>572757</hombres>
+		   <mujeres>576703</mujeres>
+		</comunidad>
+
+		<comunidad nombre="Canarias">
+		   <poblacion>2153389</poblacion>
+		   <hombres>1065971</hombres>
+		   <mujeres>1087418</mujeres>
+		</comunidad>
+
+		<comunidad nombre="Cantabria">
+		   <poblacion>581078</poblacion>
+		   <hombres>281801</hombres>
+		   <mujeres>299277</mujeres>
+		</comunidad>
+
+		<comunidad nombre="Castilla y León">
+		   <poblacion>2399548</poblacion>
+		   <hombres>1181401</hombres>
+		   <mujeres>1218147</mujeres>
+		</comunidad>
+
+		<comunidad nombre="Castilla La Mancha">
+		   <poblacion>2032863</poblacion>
+		   <hombres>1016954</hombres>
+		   <mujeres>1015909</mujeres>
+		</comunidad>
+
+		<comunidad nombre="Cataluña">
+		   <poblacion>7675217</poblacion>
+		   <hombres>3770123</hombres>
+		   <mujeres>3905094</mujeres>
+		</comunidad>
+
+		<comunidad nombre="Valencia">
+		   <poblacion>5003769</poblacion>
+		   <hombres>2465342</hombres>
+		   <mujeres>2538427</mujeres>
+		</comunidad>
+
+		<comunidad nombre="Extremadura">
+		   <poblacion>1067710</poblacion>
+		   <hombres>528500</hombres>
+		   <mujeres>539210</mujeres>
+		</comunidad>
+
+		<comunidad nombre="Galicia">
+		   <poblacion>2699499</poblacion>
+		   <hombres>1298964</hombres>
+		   <mujeres>1400535</mujeres>
+		</comunidad>
+
+		<comunidad nombre="Madrid">
+		   <poblacion>6663394</poblacion>
+		   <hombres>3187312</hombres>
+		   <mujeres>3476082</mujeres>
+		</comunidad>
+
+		<comunidad nombre="Murcia">
+		   <poblacion>1493898</poblacion>
+		   <hombres>747615</hombres>
+		   <mujeres>746283</mujeres>
+		</comunidad>
+
+		<comunidad nombre="Navarra">
+		   <poblacion>654214</poblacion>
+		   <hombres>323631</hombres>
+		   <mujeres>330583</mujeres>
+		</comunidad>
+
+		<comunidad nombre="Pais Vasco">
+		   <poblacion>2207776</poblacion>
+		   <hombres>1073074</hombres>
+		   <mujeres>1134702</mujeres>
+		</comunidad>
+
+		<comunidad nombre="La Rioja">
+		   <poblacion>316798</poblacion>
+		   <hombres>156179</hombres>
+		   <mujeres>160619</mujeres>
+		</comunidad>
+
+		<comunidad nombre="Ceuta">
+		   <poblacion>84777</poblacion>
+		   <hombres>42912</hombres>
+		   <mujeres>41865</mujeres>
+		</comunidad>
+
+		<comunidad nombre="Melilla">
+		   <poblacion>86487</poblacion>
+		   <hombres>43894</hombres>
+		   <mujeres>42593</mujeres>
+		</comunidad>
+	</pais>
+</datos_demograficos>
