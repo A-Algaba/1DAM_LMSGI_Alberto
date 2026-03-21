@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="catalogoxml_pdf.xsl"?>
+<catalogo>
+  <titulo>TechStore - Catálogo de Ordenadores y Componentes</titulo>
+  <fecha>2026-03-21</fecha>
+  <empresa>
+    <nombre>TechStore España</nombre>
+    <web>www.techstore.es</web>
+    <telefono>+34 900 123 456</telefono>
+  </empresa>
+
+  <categoria nombre="Ordenadores Portátiles">
+    <producto id="P001">
+      <nombre>LaptopPro X15 Ultra</nombre>
+      <marca>NovaTech</marca>
+      <descripcion>Portátil de alto rendimiento para profesionales y gamers exigentes</descripcion>
+      <especificaciones>
+        <procesador>Intel Core i9-13900HX 5.4GHz</procesador>
+        <ram>32 GB DDR5</ram>
+        <almacenamiento>1 TB NVMe SSD</almacenamiento>
+        <pantalla>15.6" OLED 2560x1440 165Hz</pantalla>
+        <grafica>NVIDIA RTX 4080 16GB</grafica>
+        <bateria>86Wh - hasta 8h</bateria>
+        <sistema_operativo>Windows 11 Pro</sistema_operativo>
+      </especificaciones>
+      <precio moneda="EUR">2499.99</precio>
+      <stock>12</stock>
+      <valoracion>4.8</valoracion>
+    </producto>
+    <producto id="P002">
+      <nombre>SlimBook Air 14</nombre>
+      <marca>AeroLap</marca>
+      <descripcion>Ultrabook ligero y elegante para trabajo y movilidad</descripcion>
+      <especificaciones>
+        <procesador>AMD Ryzen 7 7840U 5.1GHz</procesador>
+        <ram>16 GB LPDDR5</ram>
+        <almacenamiento>512 GB NVMe SSD</almacenamiento>
+        <pantalla>14" IPS 1920x1200 90Hz</pantalla>
+        <grafica>AMD Radeon 780M (integrada)</grafica>
+        <bateria>72Wh - hasta 14h</bateria>
+        <sistema_operativo>Windows 11 Home</sistema_operativo>
+      </especificaciones>
+      <precio moneda="EUR">1099.99</precio>
+      <stock>28</stock>
+      <valoracion>4.5</valoracion>
+    </producto>
+  </categoria>
+
+  <categoria nombre="Ordenadores de Sobremesa">
+    <producto id="P003">
+      <nombre>PowerDesk Titan RTX</nombre>
+      <marca>CoreForce</marca>
+      <descripcion>Torre gaming de máxima potencia con refrigeración líquida</descripcion>
+      <especificaciones>
+        <procesador>Intel Core i9-14900K 6.0GHz</procesador>
+        <ram>64 GB DDR5 6000MHz</ram>
+        <almacenamiento>2 TB NVMe SSD + 4 TB HDD</almacenamiento>
+        <pantalla>No incluida</pantalla>
+        <grafica>NVIDIA RTX 4090 24GB</grafica>
+        <bateria>N/A - SAI 650W recomendado</bateria>
+        <sistema_operativo>Windows 11 Pro</sistema_operativo>
+      </especificaciones>
+      <precio moneda="EUR">3799.99</precio>
+      <stock>5</stock>
+      <valoracion>4.9</valoracion>
+    </producto>
+    <producto id="P004">
+      <nombre>MiniPC Compact M2</nombre>
+      <marca>TinyBox</marca>
+      <descripcion>Mini PC silencioso y eficiente para oficina y hogar</descripcion>
+      <especificaciones>
+        <procesador>AMD Ryzen 5 7600 5.1GHz</procesador>
+        <ram>16 GB DDR5</ram>
+        <almacenamiento>512 GB NVMe SSD</almacenamiento>
+        <pantalla>No incluida</pantalla>
+        <grafica>AMD Radeon 760M (integrada)</grafica>
+        <bateria>N/A - Consumo 35W</bateria>
+        <sistema_operativo>Windows 11 Home</sistema_operativo>
+      </especificaciones>
+      <precio moneda="EUR">549.99</precio>
+      <stock>40</stock>
+      <valoracion>4.3</valoracion>
+    </producto>
+  </categoria>
+
+  <categoria nombre="Componentes - Procesadores">
+    <producto id="C001">
+      <nombre>Intel Core i7-14700K</nombre>
+      <marca>Intel</marca>
+      <descripcion>Procesador de 20 núcleos para gaming y creación de contenido</descripcion>
+      <especificaciones>
+        <procesador>20 núcleos (8P+12E) / 28 hilos</procesador>
+        <ram>Compatible DDR4/DDR5</ram>
+        <almacenamiento>N/A</almacenamiento>
+        <pantalla>N/A</pantalla>
+        <grafica>Intel UHD 770 integrada</grafica>
+        <bateria>TDP 125W (253W PBP)</bateria>
+        <sistema_operativo>Socket LGA1700</sistema_operativo>
+      </especificaciones>
+      <precio moneda="EUR">419.99</precio>
+      <stock>20</stock>
+      <valoracion>4.7</valoracion>
+    </producto>
+    <producto id="C002">
+      <nombre>AMD Ryzen 9 7950X</nombre>
+      <marca>AMD</marca>
+      <descripcion>Procesador workstation de 16 núcleos de altísimo rendimiento</descripcion>
+      <especificaciones>
+        <procesador>16 núcleos / 32 hilos hasta 5.7GHz</procesador>
+        <ram>Compatible DDR5</ram>
+        <almacenamiento>N/A</almacenamiento>
+        <pantalla>N/A</pantalla>
+        <grafica>N/A - Sin gráfica integrada</grafica>
+        <bateria>TDP 170W</bateria>
+        <sistema_operativo>Socket AM5</sistema_operativo>
+      </especificaciones>
+      <precio moneda="EUR">699.99</precio>
+      <stock>15</stock>
+      <valoracion>4.9</valoracion>
+    </producto>
+  </categoria>
+
+  <categoria nombre="Componentes - Tarjetas Gráficas">
+    <producto id="C003">
+      <nombre>NVIDIA GeForce RTX 4070 Ti Super</nombre>
+      <marca>NVIDIA</marca>
+      <descripcion>Tarjeta gráfica de gama alta con DLSS 3.5 y Ray Tracing</descripcion>
+      <especificaciones>
+        <procesador>AD103 - 8448 CUDA Cores</procesador>
+        <ram>16 GB GDDR6X</ram>
+        <almacenamiento>N/A</almacenamiento>
+        <pantalla>4x DisplayPort 1.4 / HDMI 2.1</pantalla>
+        <grafica>Boost Clock 2610 MHz</grafica>
+        <bateria>TDP 285W - PCIe 16-pin</bateria>
+        <sistema_operativo>PCIe 4.0 x16</sistema_operativo>
+      </especificaciones>
+      <precio moneda="EUR">879.99</precio>
+      <stock>8</stock>
+      <valoracion>4.8</valoracion>
+    </producto>
+    <producto id="C004">
+      <nombre>AMD Radeon RX 7800 XT</nombre>
+      <marca>AMD</marca>
+      <descripcion>Excelente relación calidad-precio para gaming 1440p</descripcion>
+      <especificaciones>
+        <procesador>Navi 32 - 3840 Stream Processors</procesador>
+        <ram>16 GB GDDR6</ram>
+        <almacenamiento>N/A</almacenamiento>
+        <pantalla>2x HDMI 2.1 / 2x DisplayPort 2.1</pantalla>
+        <grafica>Boost Clock 2430 MHz</grafica>
+        <bateria>TDP 263W - 2x PCIe 8-pin</bateria>
+        <sistema_operativo>PCIe 4.0 x16</sistema_operativo>
+      </especificaciones>
+      <precio moneda="EUR">549.99</precio>
+      <stock>18</stock>
+      <valoracion>4.6</valoracion>
+    </producto>
+  </categoria>
+
+  <categoria nombre="Componentes - Memorias RAM">
+    <producto id="C005">
+      <nombre>Corsair Vengeance DDR5-6000 32GB</nombre>
+      <marca>Corsair</marca>
+      <descripcion>Kit dual de memoria DDR5 de alto rendimiento con XMP 3.0</descripcion>
+      <especificaciones>
+        <procesador>N/A</procesador>
+        <ram>2x 16GB DDR5-6000 CL36</ram>
+        <almacenamiento>N/A</almacenamiento>
+        <pantalla>N/A</pantalla>
+        <grafica>N/A</grafica>
+        <bateria>1.35V</bateria>
+        <sistema_operativo>Compatible Intel/AMD DDR5</sistema_operativo>
+      </especificaciones>
+      <precio moneda="EUR">149.99</precio>
+      <stock>35</stock>
+      <valoracion>4.7</valoracion>
+    </producto>
+  </categoria>
+
+  <categoria nombre="Almacenamiento">
+    <producto id="S001">
+      <nombre>Samsung 990 Pro NVMe 2TB</nombre>
+      <marca>Samsung</marca>
+      <descripcion>SSD NVMe PCIe 4.0 de máxima velocidad para profesionales</descripcion>
+      <especificaciones>
+        <procesador>N/A</procesador>
+        <ram>N/A</ram>
+        <almacenamiento>2 TB - Lectura 7450 MB/s / Escritura 6900 MB/s</almacenamiento>
+        <pantalla>N/A</pantalla>
+        <grafica>N/A</grafica>
+        <bateria>TBW 1200 TB - 5 años garantía</bateria>
+        <sistema_operativo>M.2 2280 PCIe 4.0 x4 NVMe</sistema_operativo>
+      </especificaciones>
+      <precio moneda="EUR">189.99</precio>
+      <stock>50</stock>
+      <valoracion>4.9</valoracion>
+    </producto>
+  </categoria>
+</catalogo>

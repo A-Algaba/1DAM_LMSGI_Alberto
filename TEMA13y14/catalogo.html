@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>TechStore - Catálogo de Ordenadores y Componentes</title>
+    <style>
+          body { font-family: Arial, sans-serif; margin: 30px; background: #f5f5f5; color: #333; }
+          h1   { color: #1a1a2e; border-bottom: 3px solid #e94560; padding-bottom: 8px; }
+          h2   { color: #16213e; margin-top: 40px; }
+          .empresa { background: #fff; padding: 12px 20px; border-left: 5px solid #e94560;
+                     margin-bottom: 30px; border-radius: 4px; }
+          table { width: 100%; border-collapse: collapse; background: #fff;
+                  margin-bottom: 30px; border-radius: 6px; overflow: hidden;
+                  box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+          th    { background: #16213e; color: #fff; padding: 10px 14px; text-align: left; }
+          td    { padding: 9px 14px; border-bottom: 1px solid #eee; vertical-align: top; }
+          tr:last-child td { border-bottom: none; }
+          tr:hover td { background: #f0f4ff; }
+          .stock-bajo  { color: #c0392b; font-weight: bold; }
+          .val-alto    { color: #27ae60; font-weight: bold; }
+          .val-medio   { color: #e67e22; font-weight: bold; }
+          .val-bajo    { color: #c0392b; font-weight: bold; }
+          .badge-stock { font-size: 0.78em; background: #ffe0e0; color: #c0392b;
+                         padding: 2px 7px; border-radius: 10px; margin-left: 6px; }
+          footer { margin-top: 40px; font-size: 0.85em; color: #888; text-align: center; }
+        </style>
+  </head>
+  <body>
+    <h1>TechStore - Catálogo de Ordenadores y Componentes</h1>
+    <div class="empresa"><strong>Empresa: </strong>TechStore España
+           | 
+          <strong>Web: </strong>www.techstore.es
+           | 
+          <strong>Tel: </strong>+34 900 123 456
+           | 
+          <strong>Fecha: </strong>2026-03-21</div>
+    <h2>Ordenadores Portátiles</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Ref.</th>
+          <th>Nombre</th>
+          <th>Marca</th>
+          <th>Descripción</th>
+          <th>Procesador</th>
+          <th>RAM</th>
+          <th>Almacenamiento</th>
+          <th>Precio</th>
+          <th>Stock</th>
+          <th>Valoración</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>P002</td>
+          <td>
+            <strong>SlimBook Air 14</strong>
+          </td>
+          <td>AeroLap</td>
+          <td>Ultrabook ligero y elegante para trabajo y movilidad</td>
+          <td>AMD Ryzen 7 7840U 5.1GHz</td>
+          <td>16 GB LPDDR5</td>
+          <td>512 GB NVMe SSD</td>
+          <td>1099.99 EUR</td>
+          <td>28</td>
+          <td>
+            <span class="val-medio">
+                          ⭐ 4.5</span>
+          </td>
+        </tr>
+        <tr>
+          <td>P001</td>
+          <td>
+            <strong>LaptopPro X15 Ultra</strong>
+          </td>
+          <td>NovaTech</td>
+          <td>Portátil de alto rendimiento para profesionales y gamers exigentes</td>
+          <td>Intel Core i9-13900HX 5.4GHz</td>
+          <td>32 GB DDR5</td>
+          <td>1 TB NVMe SSD</td>
+          <td>2499.99 EUR</td>
+          <td>12</td>
+          <td>
+            <span class="val-alto">
+                          ⭐ 4.8</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Ordenadores de Sobremesa</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Ref.</th>
+          <th>Nombre</th>
+          <th>Marca</th>
+          <th>Descripción</th>
+          <th>Procesador</th>
+          <th>RAM</th>
+          <th>Almacenamiento</th>
+          <th>Precio</th>
+          <th>Stock</th>
+          <th>Valoración</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>P004</td>
+          <td>
+            <strong>MiniPC Compact M2</strong>
+          </td>
+          <td>TinyBox</td>
+          <td>Mini PC silencioso y eficiente para oficina y hogar</td>
+          <td>AMD Ryzen 5 7600 5.1GHz</td>
+          <td>16 GB DDR5</td>
+          <td>512 GB NVMe SSD</td>
+          <td>549.99 EUR</td>
+          <td>40</td>
+          <td>
+            <span class="val-medio">
+                          ⭐ 4.3</span>
+          </td>
+        </tr>
+        <tr>
+          <td>P003</td>
+          <td>
+            <strong>PowerDesk Titan RTX</strong>
+          </td>
+          <td>CoreForce</td>
+          <td>Torre gaming de máxima potencia con refrigeración líquida</td>
+          <td>Intel Core i9-14900K 6.0GHz</td>
+          <td>64 GB DDR5 6000MHz</td>
+          <td>2 TB NVMe SSD + 4 TB HDD</td>
+          <td>3799.99 EUR</td>
+          <td>5<span class="badge-stock">
+                        ⚠ Pocas unidades
+                      </span></td>
+          <td>
+            <span class="val-alto">
+                          ⭐ 4.9</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Componentes - Procesadores</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Ref.</th>
+          <th>Nombre</th>
+          <th>Marca</th>
+          <th>Descripción</th>
+          <th>Procesador</th>
+          <th>RAM</th>
+          <th>Almacenamiento</th>
+          <th>Precio</th>
+          <th>Stock</th>
+          <th>Valoración</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>C001</td>
+          <td>
+            <strong>Intel Core i7-14700K</strong>
+          </td>
+          <td>Intel</td>
+          <td>Procesador de 20 núcleos para gaming y creación de contenido</td>
+          <td>20 núcleos (8P+12E) / 28 hilos</td>
+          <td>Compatible DDR4/DDR5</td>
+          <td>N/A</td>
+          <td>419.99 EUR</td>
+          <td>20</td>
+          <td>
+            <span class="val-alto">
+                          ⭐ 4.7</span>
+          </td>
+        </tr>
+        <tr>
+          <td>C002</td>
+          <td>
+            <strong>AMD Ryzen 9 7950X</strong>
+          </td>
+          <td>AMD</td>
+          <td>Procesador workstation de 16 núcleos de altísimo rendimiento</td>
+          <td>16 núcleos / 32 hilos hasta 5.7GHz</td>
+          <td>Compatible DDR5</td>
+          <td>N/A</td>
+          <td>699.99 EUR</td>
+          <td>15</td>
+          <td>
+            <span class="val-alto">
+                          ⭐ 4.9</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Componentes - Tarjetas Gráficas</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Ref.</th>
+          <th>Nombre</th>
+          <th>Marca</th>
+          <th>Descripción</th>
+          <th>Procesador</th>
+          <th>RAM</th>
+          <th>Almacenamiento</th>
+          <th>Precio</th>
+          <th>Stock</th>
+          <th>Valoración</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>C004</td>
+          <td>
+            <strong>AMD Radeon RX 7800 XT</strong>
+          </td>
+          <td>AMD</td>
+          <td>Excelente relación calidad-precio para gaming 1440p</td>
+          <td>Navi 32 - 3840 Stream Processors</td>
+          <td>16 GB GDDR6</td>
+          <td>N/A</td>
+          <td>549.99 EUR</td>
+          <td>18</td>
+          <td>
+            <span class="val-medio">
+                          ⭐ 4.6</span>
+          </td>
+        </tr>
+        <tr>
+          <td>C003</td>
+          <td>
+            <strong>NVIDIA GeForce RTX 4070 Ti Super</strong>
+          </td>
+          <td>NVIDIA</td>
+          <td>Tarjeta gráfica de gama alta con DLSS 3.5 y Ray Tracing</td>
+          <td>AD103 - 8448 CUDA Cores</td>
+          <td>16 GB GDDR6X</td>
+          <td>N/A</td>
+          <td>879.99 EUR</td>
+          <td>8<span class="badge-stock">
+                        ⚠ Pocas unidades
+                      </span></td>
+          <td>
+            <span class="val-alto">
+                          ⭐ 4.8</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Componentes - Memorias RAM</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Ref.</th>
+          <th>Nombre</th>
+          <th>Marca</th>
+          <th>Descripción</th>
+          <th>Procesador</th>
+          <th>RAM</th>
+          <th>Almacenamiento</th>
+          <th>Precio</th>
+          <th>Stock</th>
+          <th>Valoración</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>C005</td>
+          <td>
+            <strong>Corsair Vengeance DDR5-6000 32GB</strong>
+          </td>
+          <td>Corsair</td>
+          <td>Kit dual de memoria DDR5 de alto rendimiento con XMP 3.0</td>
+          <td>N/A</td>
+          <td>2x 16GB DDR5-6000 CL36</td>
+          <td>N/A</td>
+          <td>149.99 EUR</td>
+          <td>35</td>
+          <td>
+            <span class="val-alto">
+                          ⭐ 4.7</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Almacenamiento</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Ref.</th>
+          <th>Nombre</th>
+          <th>Marca</th>
+          <th>Descripción</th>
+          <th>Procesador</th>
+          <th>RAM</th>
+          <th>Almacenamiento</th>
+          <th>Precio</th>
+          <th>Stock</th>
+          <th>Valoración</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>S001</td>
+          <td>
+            <strong>Samsung 990 Pro NVMe 2TB</strong>
+          </td>
+          <td>Samsung</td>
+          <td>SSD NVMe PCIe 4.0 de máxima velocidad para profesionales</td>
+          <td>N/A</td>
+          <td>N/A</td>
+          <td>2 TB - Lectura 7450 MB/s / Escritura 6900 MB/s</td>
+          <td>189.99 EUR</td>
+          <td>50</td>
+          <td>
+            <span class="val-alto">
+                          ⭐ 4.9</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <footer>© TechStore España — www.techstore.es</footer>
+  </body>
+</html>
