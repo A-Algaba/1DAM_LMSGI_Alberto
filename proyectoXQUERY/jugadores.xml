@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jugadores>
+  <jugador cod="j201">
+    <nombreCompleto>Jude Bellingham</nombreCompleto>
+    <nacimiento>2003</nacimiento>
+    <pais>Inglaterra</pais>
+    <posicion>Centrocampista</posicion>
+    <equipoActual>Real Madrid</equipoActual>
+  </jugador>
+  <jugador cod="j202">
+    <nombreCompleto>Kylian Mbappé</nombreCompleto>
+    <nacimiento>1998</nacimiento>
+    <pais>Francia</pais>
+    <posicion>Delantero</posicion>
+    <equipoActual>Paris FC</equipoActual>
+  </jugador>
+  <jugador cod="j203">
+    <nombreCompleto>Yeremy Pino</nombreCompleto>
+    <nacimiento>2002</nacimiento>
+    <pais>España</pais>
+    <posicion>Extremo</posicion>
+    <equipoActual>Villarreal CF</equipoActual>
+  </jugador>
+  <jugador cod="j204">
+    <nombreCompleto>Robert Lewandowski</nombreCompleto>
+    <nacimiento>1988</nacimiento>
+    <pais>Polonia</pais>
+    <posicion>Delantero</posicion>
+    <equipoActual>Munich FC</equipoActual>
+  </jugador>
+  <jugador cod="j205">
+    <nombreCompleto>Erling Haaland</nombreCompleto>
+    <nacimiento>2000</nacimiento>
+    <pais>Noruega</pais>
+    <posicion>Delantero</posicion>
+    <equipoActual>Manchester City FC</equipoActual>
+  </jugador>
+  <jugador cod="j206">
+    <nombreCompleto>Lionel Messi</nombreCompleto>
+    <nacimiento>1987</nacimiento>
+    <pais>Argentina</pais>
+    <posicion>Delantero</posicion>
+    <equipoActual>Paris FC</equipoActual>
+  </jugador>
+  <jugador cod="j207">
+    <nombreCompleto>Kevin De Bruyne</nombreCompleto>
+    <nacimiento>1991</nacimiento>
+    <pais>Bélgica</pais>
+    <posicion>Centrocampista</posicion>
+    <equipoActual>Manchester City FC</equipoActual>
+  </jugador>
+  <jugador cod="j208">
+    <nombreCompleto>Cristiano Ronaldo</nombreCompleto>
+    <nacimiento>1985</nacimiento>
+    <pais>Portugal</pais>
+    <posicion>Delantero</posicion>
+    <equipoActual>Manchester United FC</equipoActual>
+  </jugador>
+  <jugador cod="j209">
+    <nombreCompleto>Mohamed Salah</nombreCompleto>
+    <nacimiento>1992</nacimiento>
+    <pais>Egipto</pais>
+    <posicion>Extremo</posicion>
+    <equipoActual>Liverpool FC</equipoActual>
+  </jugador>
+  <jugador cod="j210">
+    <nombreCompleto>Virgil van Dijk</nombreCompleto>
+    <nacimiento>1991</nacimiento>
+    <pais>Países Bajos</pais>
+    <posicion>Defensa</posicion>
+    <equipoActual>Liverpool FC</equipoActual>
+  </jugador>
+
+  <jugador cod="j211">
+    <nombreCompleto>Pedri González</nombreCompleto>
+    <nacimiento>2002</nacimiento>
+    <pais>España</pais>
+    <posicion>Centrocampista</posicion>
+    <equipoActual>FC Barcelona</equipoActual>
+  </jugador>
+  <jugador cod="j212">
+    <nombreCompleto>Gavi</nombreCompleto>
+    <nacimiento>2004</nacimiento>
+    <pais>España</pais>
+    <posicion>Centrocampista</posicion>
+    <equipoActual>FC Barcelona</equipoActual>
+  </jugador>
+  <jugador cod="j213">
+    <nombreCompleto>Lamine Yamal</nombreCompleto>
+    <nacimiento>2007</nacimiento>
+    <pais>España</pais>
+    <posicion>Extremo</posicion>
+    <equipoActual>FC Barcelona</equipoActual>
+  </jugador>
+  <jugador cod="j214">
+    <nombreCompleto>Dani Carvajal</nombreCompleto>
+    <nacimiento>1992</nacimiento>
+    <pais>España</pais>
+    <posicion>Defensa</posicion>
+    <equipoActual>Real Madrid</equipoActual>
+  </jugador>
+  <jugador cod="j215">
+    <nombreCompleto>Rodri Hernández</nombreCompleto>
+    <nacimiento>1996</nacimiento>
+    <pais>España</pais>
+    <posicion>Centrocampista</posicion>
+    <equipoActual>Manchester City FC</equipoActual>
+  </jugador>
+  <jugador cod="j216">
+    <nombreCompleto>Nico Williams</nombreCompleto>
+    <nacimiento>2002</nacimiento>
+    <pais>España</pais>
+    <posicion>Extremo</posicion>
+    <equipoActual>Athletic Club</equipoActual>
+  </jugador>
+  <jugador cod="j217">
+    <nombreCompleto>Álvaro Morata</nombreCompleto>
+    <nacimiento>1992</nacimiento>
+    <pais>España</pais>
+    <posicion>Delantero</posicion>
+    <equipoActual>AC Milan</equipoActual>
+  </jugador>
+
+  <jugador cod="j218">
+    <nombreCompleto>Vinícius Júnior</nombreCompleto>
+    <nacimiento>2000</nacimiento>
+    <pais>Brasil</pais>
+    <posicion>Extremo</posicion>
+    <equipoActual>Real Madrid</equipoActual>
+  </jugador>
+  <jugador cod="j219">
+    <nombreCompleto>Rodrygo Goes</nombreCompleto>
+    <nacimiento>2001</nacimiento>
+    <pais>Brasil</pais>
+    <posicion>Delantero</posicion>
+    <equipoActual>Real Madrid</equipoActual>
+  </jugador>
+  <jugador cod="j220">
+    <nombreCompleto>Federico Valverde</nombreCompleto>
+    <nacimiento>1998</nacimiento>
+    <pais>Uruguay</pais>
+    <posicion>Centrocampista</posicion>
+    <equipoActual>Real Madrid</equipoActual>
+  </jugador>
+  <jugador cod="j221">
+    <nombreCompleto>Thibaut Courtois</nombreCompleto>
+    <nacimiento>1992</nacimiento>
+    <pais>Bélgica</pais>
+    <posicion>Portero</posicion>
+    <equipoActual>Real Madrid</equipoActual>
+  </jugador>
+  <jugador cod="j222">
+    <nombreCompleto>Antoine Griezmann</nombreCompleto>
+    <nacimiento>1991</nacimiento>
+    <pais>Francia</pais>
+    <posicion>Delantero</posicion>
+    <equipoActual>Atlético de Madrid</equipoActual>
+  </jugador>
+  <jugador cod="j223">
+    <nombreCompleto>Ousmane Dembélé</nombreCompleto>
+    <nacimiento>1997</nacimiento>
+    <pais>Francia</pais>
+    <posicion>Extremo</posicion>
+    <equipoActual>Paris Saint-Germain</equipoActual>
+  </jugador>
+  <jugador cod="j224">
+    <nombreCompleto>Eduardo Camavinga</nombreCompleto>
+    <nacimiento>2002</nacimiento>
+    <pais>Francia</pais>
+    <posicion>Centrocampista</posicion>
+    <equipoActual>Real Madrid</equipoActual>
+  </jugador>
+
+  <jugador cod="j225">
+    <nombreCompleto>Bukayo Saka</nombreCompleto>
+    <nacimiento>2001</nacimiento>
+    <pais>Inglaterra</pais>
+    <posicion>Extremo</posicion>
+    <equipoActual>Arsenal FC</equipoActual>
+  </jugador>
+  <jugador cod="j226">
+    <nombreCompleto>Harry Kane</nombreCompleto>
+    <nacimiento>1993</nacimiento>
+    <pais>Inglaterra</pais>
+    <posicion>Delantero</posicion>
+    <equipoActual>Munich FC</equipoActual>
+  </jugador>
+  <jugador cod="j227">
+    <nombreCompleto>Phil Foden</nombreCompleto>
+    <nacimiento>2000</nacimiento>
+    <pais>Inglaterra</pais>
+    <posicion>Centrocampista</posicion>
+    <equipoActual>Manchester City FC</equipoActual>
+  </jugador>
+
+  <jugador cod="j228">
+    <nombreCompleto>Lautaro Martínez</nombreCompleto>
+    <nacimiento>1997</nacimiento>
+    <pais>Argentina</pais>
+    <posicion>Delantero</posicion>
+    <equipoActual>Inter de Milán</equipoActual>
+  </jugador>
+  <jugador cod="j229">
+    <nombreCompleto>Julián Álvarez</nombreCompleto>
+    <nacimiento>2000</nacimiento>
+    <pais>Argentina</pais>
+    <posicion>Delantero</posicion>
+    <equipoActual>Atlético de Madrid</equipoActual>
+  </jugador>
+
+  <jugador cod="j230">
+    <nombreCompleto>Bruno Fernandes</nombreCompleto>
+    <nacimiento>1994</nacimiento>
+    <pais>Portugal</pais>
+    <posicion>Centrocampista</posicion>
+    <equipoActual>Manchester United FC</equipoActual>
+  </jugador>
+  <jugador cod="j231">
+    <nombreCompleto>Bernardo Silva</nombreCompleto>
+    <nacimiento>1994</nacimiento>
+    <pais>Portugal</pais>
+    <posicion>Centrocampista</posicion>
+    <equipoActual>Manchester City FC</equipoActual>
+  </jugador>
+
+  <jugador cod="j232">
+    <nombreCompleto>Rafael Leão</nombreCompleto>
+    <nacimiento>1999</nacimiento>
+    <pais>Portugal</pais>
+    <posicion>Extremo</posicion>
+    <equipoActual>AC Milan</equipoActual>
+  </jugador>
+  <jugador cod="j233">
+    <nombreCompleto>Victor Osimhen</nombreCompleto>
+    <nacimiento>1998</nacimiento>
+    <pais>Nigeria</pais>
+    <posicion>Delantero</posicion>
+    <equipoActual>Galatasaray</equipoActual>
+  </jugador>
+  <jugador cod="j234">
+    <nombreCompleto>Khvicha Kvaratskhelia</nombreCompleto>
+    <nacimiento>2001</nacimiento>
+    <pais>Georgia</pais>
+    <posicion>Extremo</posicion>
+    <equipoActual>Paris Saint-Germain</equipoActual>
+  </jugador>
+  <jugador cod="j235">
+    <nombreCompleto>Joško Gvardiol</nombreCompleto>
+    <nacimiento>2002</nacimiento>
+    <pais>Croacia</pais>
+    <posicion>Defensa</posicion>
+    <equipoActual>Manchester City FC</equipoActual>
+  </jugador>
+  <jugador cod="j236">
+    <nombreCompleto>Luka Modrić</nombreCompleto>
+    <nacimiento>1985</nacimiento>
+    <pais>Croacia</pais>
+    <posicion>Centrocampista</posicion>
+    <equipoActual>Real Madrid</equipoActual>
+  </jugador>
+  <jugador cod="j237">
+    <nombreCompleto>Achraf Hakimi</nombreCompleto>
+    <nacimiento>1998</nacimiento>
+    <pais>Marruecos</pais>
+    <posicion>Defensa</posicion>
+    <equipoActual>Paris Saint-Germain</equipoActual>
+  </jugador>
+  <jugador cod="j238">
+    <nombreCompleto>Heung-min Son</nombreCompleto>
+    <nacimiento>1992</nacimiento>
+    <pais>Corea del Sur</pais>
+    <posicion>Delantero</posicion>
+    <equipoActual>Tottenham Hotspur</equipoActual>
+  </jugador>
+  <jugador cod="j239">
+    <nombreCompleto>Martin Ødegaard</nombreCompleto>
+    <nacimiento>1998</nacimiento>
+    <pais>Noruega</pais>
+    <posicion>Centrocampista</posicion>
+    <equipoActual>Arsenal FC</equipoActual>
+  </jugador>
+  <jugador cod="j240">
+    <nombreCompleto>Rúben Dias</nombreCompleto>
+    <nacimiento>1997</nacimiento>
+    <pais>Portugal</pais>
+    <posicion>Defensa</posicion>
+    <equipoActual>Manchester City FC</equipoActual>
+  </jugador>
+</jugadores>
