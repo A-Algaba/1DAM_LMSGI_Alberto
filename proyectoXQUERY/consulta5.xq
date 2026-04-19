@@ -4,14 +4,14 @@ xquery version "1.0";
 
 <jugadores_espana>
 {
-  for $j in doc("jugadores.xml")/jugadores/jugador
-  where $j/pais = "España"
+  for $jugador in doc("jugadores.xml")//jugador
+  where $jugador/pais = "España"
   return
-    <jugador cod="{data($j/@cod)}">
-      <nombreCompleto>{$j/nombreCompleto/text()}</nombreCompleto>
-      <nacimiento>{$j/nacimiento/text()}</nacimiento>
+    <jugador cod="{data($jugador/@cod)}">
+      <nombreCompleto>{$jugador/nombreCompleto/text()}</nombreCompleto>
+      <nacimiento>{$jugador/nacimiento/text()}</nacimiento>
       <categoria>{
-        if ($j/nacimiento < 1995)
+        if ($jugador/nacimiento < 1995)
         then "veterano"
         else "activo"
       }</categoria>

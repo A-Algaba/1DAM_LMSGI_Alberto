@@ -22,11 +22,11 @@ xquery version "1.0";
     <h1>Jugadores de Francia</h1>
     <ul>
     {
-      for $j in doc("jugadores.xml")/jugadores/jugador
-      where $j/pais = "Francia"
-      order by $j/nombreCompleto
+      for $jugador in doc("jugadores.xml")//jugador
+      where $jugador/pais = "Francia"
+      order by $jugador/nombreCompleto
       return
-        <li>{$j/nombreCompleto/text()} - {$j/posicion/text()} - {$j/equipoActual/text()}</li>
+        <li>{$jugador/nombreCompleto/text()} - {$jugador/posicion/text()} - {$jugador/equipoActual/text()}</li>
     }
     </ul>
   </body>

@@ -3,10 +3,10 @@ xquery version "1.0";
 (:Consulta3: Alberto Algaba Calderón:)
 
 declare function local:jugadoresPorEquipo($equipo as xs:string) {
-  for $j in doc("jugadores.xml")/jugadores/jugador
-  where $j/equipoActual = $equipo
+  for $jugador in doc("jugadores.xml")//jugador
+  where $jugador/equipoActual = $equipo
   return
-    <nombre>{data($j/@cod)} -- {$j/nombreCompleto/text()}</nombre>
+    <nombre>{data($jugador/@cod)} -- {$jugador/nombreCompleto/text()}</nombre>
 };
 
 local:jugadoresPorEquipo("Liverpool FC")

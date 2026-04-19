@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<equipos>
+
+    <equipo>
+        <nombre>F.C.Alberto_Algaba</nombre>
+        <pais>España</pais>
+        <liga>La liga</liga>
+    </equipo>
+
+    <equipo>
+        <nombre>Real Madrid</nombre>
+        <pais>España</pais>
+        <liga>La liga</liga>
+    </equipo>
+
+    <equipo>
+        <nombre>F.C.Barcelona</nombre>
+        <pais>España</pais>
+        <liga>La liga</liga>
+    </equipo>
+
+    <equipo>
+        <nombre>Paris FC</nombre>
+        <pais>Francia</pais>
+        <liga>Serie A</liga>
+    </equipo>
+
+    <equipo>
+        <nombre>Munich FC</nombre>
+        <pais>Alemania</pais>
+        <liga>Premier League</liga>
+    </equipo>
+
+</equipos>
