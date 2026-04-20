@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Manejo de texto</title>
+    <style>
+      div{padding-left:20px;width:500px;
+      border:solid 2px black;
+      box-shadow:10px 10px 10px grey;
+      border-radius:15px;background-color:#C6E3E6;}
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var nombre=prompt("Dime tu nombre");
+      var apellido1=prompt("Dime tu primer apellido");
+      var apellido2=prompt("Dime tu segundo apellido");
+
+      document.write("<div>");
+      document.write("<h1>Nombre: " + nombre
+      + " " + apellido1 + " " + apellido2 + "</h1>");
+
+      document.write("<hr>");
+
+      document.write("<ul><li><h3>Correo electrónico: " +
+      nombre.substring(0,1) + apellido1 +
+      "@webmalagadesign.es" + "</h3></li>");
+
+      document.write("<li><h3>Contraseña temporal : " +
+      nombre.substring(0,2) + apellido2.substring(0,2) +
+      + nombre.length + "-" +
+      apellido1.charAt(apellido1.length-1) +
+      "</h3></li></ul>");
+      document.write("</div>");
+    </script>
+  </body>
+</html>
