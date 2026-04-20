@@ -8,17 +8,27 @@
 <body>
     <input id="newLine" type="text" name="newLine">
 <button onclick="addElement()">Crear</button>
-<ul></ul>
+<ul id = "lista"></ul>
 <script>
 
     function addElement() {
         var elemento = document.getElementById("newLine");
+        var lista = document.getElementById("lista");
 
-        var nuevoItem = document.createElement("li");
+        if(elemento.value.trim() != "") {
 
-        nuevoItem.textContent = elemento;
+            var nuevoLi = document.createElement("li");
 
-        lista.appendChild(nuevoItem);
+            nuevoLi.textContent = elemento.value;
+
+            lista.appendChild(nuevoLi);
+
+            elemento.value = "";
+
+
+        } else {
+            alert("Escribe algo")
+        }
     }
 
 </script>
