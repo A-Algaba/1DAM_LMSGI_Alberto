@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="parrafo1">Pulse el boton para cambiar su contenido</p>
+    <p class="parrafo2">Otro parrafo de prueba</p>
+    <button onclick="cambia()">Cambiar</button>
+
+    <script>
+            function cambia() {
+
+                var elemento = document.getElementsByClassName("parrafo2")[0];
+                
+                console.log(elemento);
+                elemento.style.color = "Red";
+                elemento.style.backgroundColor = "Black";
+                elemento.style.width = "300px";
+                elemento.innerHTML = "Hola <b> a todos </b>";
+
+            }
+    </script>
+</body>
+</html>

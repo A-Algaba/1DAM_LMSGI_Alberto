@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="newLine" type="text" name="newLine">
+<button onclick="addElement()">Crear</button>
+<ul></ul>
+<script>
+
+    function addElement() {
+        var elemento = document.getElementById("newLine");
+
+        var nuevoItem = document.createElement("li");
+
+        nuevoItem.textContent = elemento;
+
+        lista.appendChild(nuevoItem);
+    }
+
+</script>
+</body>
+</html>
