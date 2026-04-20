@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var cad = "Lenguaje de marcas";
+        var array;
+        var cad2 = "";
+
+        //funciones de texto
+
+        document.write("Longitud: " + cad.length + "<br>");
+        document.write("Cadena de texto mayusculas: " + cad.toUpperCase() + "<br>");
+        document.write(cad.charAt(5) + "<br>");
+        document.write(cad.indexOf("a") + "<br>");
+        document.write(cad.substring(5,10) + "<br>");
+        document.write(cad.includes("de") + "<br>");
+        array = cad.split(" ");
+        console.log(array);
+        console.log(array.pop());
+        console.log(array.push("datos"));
+        console.log(array.shift());
+        console.log(array.unshift("Bases"));
+        console.log(array.reverse());
+        cad2 = array.join("-");
+        document.write("Lo pasamos a cadena " + cad2);
+
+    </script>
+</body>
+</html>
