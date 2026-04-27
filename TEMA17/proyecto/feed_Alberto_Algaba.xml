@@ -2,16 +2,52 @@
 <rss version="2.0">
   <channel>
     <title>TecnoMundo: Innovacion y futuro</title>
-    <link />
+    <link>https://raw.githubusercontent.com/A-Algaba/1DAM_LMSGI_Alberto/refs/heads/main/TEMA17/proyecto/feed_Alberto_Algaba.xml</link>
     <description>Catalogo de notcias recientes sobre el mundo de la tecnologia, salidas de nuevos productos tecnologicos, IA, hardware, software, ciencia de datos, etc.</description>
+    <language>es</language>
+    <managingEditor>aac0077@alu.medac.es</managingEditor>
+    <webMaster>aac0077@alu.medac.es</webMaster>
     <pubDate>Mon, 27 Apr 2026 08:37:45 GMT</pubDate>
-    <lastBuildDate>Mon, 27 Apr 2026 09:18:01 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 09:32:13 GMT</lastBuildDate>
+    <category>Tecnologia e IA</category>
     <generator>Absolute RSS Editor</generator>
     <docs>http://www.rssboard.org/rss-specification</docs>
+    <image>
+      <url>https://www.ikusi.com/wp-content/uploads/2025/07/post_thumbnail-4efabca9bd56b38edc0058c4ba006481.jpg</url>
+      <title>Imagen de tecnologia</title>
+      <description>Una imagen que representa nuestro canal de noticias TecnoMundo</description>
+    </image>
     <item>
-      <title>Nuevo modelo de claudeAI</title>
-      <link>https://</link>
-      <description>Un nuevo modelo de claude AI, llamado mythos, en el cual participan varias de las empresas mas famosas, como microsoft, nvidia</description>
+      <title>Coches voladores eléctricos superan las pruebas en entornos urbanos</title>
+      <description>Los primeros taxis aéreos no tripulados han completado con éxito sus rutas de prueba sobre los cielos de Madrid y Barcelona.</description>
+      <guid isPermaLink="false">34A5B1F6-335E-4EC6-BE21-59857C5F2660</guid>
+      <pubDate>Mon, 27 Apr 2026 09:31:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>El fin de las contraseñas: el estándar Passkey se vuelve global</title>
+      <description>Las principales empresas tecnológicas anuncian que dejarán de permitir contraseñas tradicionales en favor de la identificación biométrica.</description>
+      <guid isPermaLink="false">D211CDFB-8924-4DF1-AD28-9A1B625FDF29</guid>
+      <pubDate>Mon, 27 Apr 2026 09:30:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>Baterías de grafeno: carga completa en solo 5 minutos</title>
+      <description>Los nuevos smartphones que llegarán a final de año incorporarán celdas de grafeno que prometen revolucionar la autonomía móvil.</description>
+      <guid isPermaLink="false">42646AA7-38C4-438F-9B0B-F3ED22D0F1E1</guid>
+      <pubDate>Mon, 27 Apr 2026 09:30:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>La Inteligencia Artificial ya traduce 500 idiomas en tiempo real</title>
+      <link>https://TecnoMundo.com</link>
+      <description>Un nuevo modelo de lenguaje permite la comunicación fluida entre personas de diferentes países mediante auriculares inteligentes.&lt;</description>
+      <author>aac0077@alu.medac.es</author>
+      <guid isPermaLink="false">00FE282D-E455-4480-8EAF-0C6B425DB846</guid>
+      <pubDate>Mon, 27 Apr 2026 09:29:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>Presentan el primer procesador cuántico doméstico</title>
+      <link>https://TecnoMundo.com</link>
+      <description>Una startup de California ha logrado miniaturizar la tecnología cuántica para su uso en ordenadores de sobremesa de alto rendimiento.</description>
+      <category>Tecnologia</category>
       <guid isPermaLink="false">343BC432-B9C6-49A0-9C7E-988AE3751B0F</guid>
       <pubDate>Mon, 27 Apr 2026 08:38:14 GMT</pubDate>
     </item>
