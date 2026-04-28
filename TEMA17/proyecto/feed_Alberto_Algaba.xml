@@ -8,8 +8,8 @@
     <managingEditor>aac0077@alu.medac.es</managingEditor>
     <webMaster>aac0077@alu.medac.es</webMaster>
     <pubDate>Mon, 27 Apr 2026 08:37:45 GMT</pubDate>
-    <lastBuildDate>Mon, 27 Apr 2026 09:32:13 GMT</lastBuildDate>
-    <category>Tecnologia e IA</category>
+    <lastBuildDate>Tue, 28 Apr 2026 10:47:28 GMT</lastBuildDate>
+    <category>Tecnologia, hardware, software, seguridad informatica, IA, etc.</category>
     <generator>Absolute RSS Editor</generator>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <image>
@@ -20,18 +20,24 @@
     <item>
       <title>Coches voladores eléctricos superan las pruebas en entornos urbanos</title>
       <description>Los primeros taxis aéreos no tripulados han completado con éxito sus rutas de prueba sobre los cielos de Madrid y Barcelona.</description>
+      <author>aac0077@alu.medac.es</author>
+      <category>Tecnologia, vehiculos, hardware</category>
       <guid isPermaLink="false">34A5B1F6-335E-4EC6-BE21-59857C5F2660</guid>
       <pubDate>Mon, 27 Apr 2026 09:31:20 GMT</pubDate>
     </item>
     <item>
       <title>El fin de las contraseñas: el estándar Passkey se vuelve global</title>
       <description>Las principales empresas tecnológicas anuncian que dejarán de permitir contraseñas tradicionales en favor de la identificación biométrica.</description>
+      <author>aac0077@alu.medac.es</author>
+      <category>Tecnologia, seguridad informatica</category>
       <guid isPermaLink="false">D211CDFB-8924-4DF1-AD28-9A1B625FDF29</guid>
       <pubDate>Mon, 27 Apr 2026 09:30:58 GMT</pubDate>
     </item>
     <item>
       <title>Baterías de grafeno: carga completa en solo 5 minutos</title>
       <description>Los nuevos smartphones que llegarán a final de año incorporarán celdas de grafeno que prometen revolucionar la autonomía móvil.</description>
+      <author>aac0077@alu.medac.es</author>
+      <category>Tecnologia, hardware</category>
       <guid isPermaLink="false">42646AA7-38C4-438F-9B0B-F3ED22D0F1E1</guid>
       <pubDate>Mon, 27 Apr 2026 09:30:34 GMT</pubDate>
     </item>
@@ -40,6 +46,7 @@
       <link>https://TecnoMundo.com</link>
       <description>Un nuevo modelo de lenguaje permite la comunicación fluida entre personas de diferentes países mediante auriculares inteligentes.&lt;</description>
       <author>aac0077@alu.medac.es</author>
+      <category>Tecnologia, IA</category>
       <guid isPermaLink="false">00FE282D-E455-4480-8EAF-0C6B425DB846</guid>
       <pubDate>Mon, 27 Apr 2026 09:29:42 GMT</pubDate>
     </item>
@@ -47,7 +54,8 @@
       <title>Presentan el primer procesador cuántico doméstico</title>
       <link>https://TecnoMundo.com</link>
       <description>Una startup de California ha logrado miniaturizar la tecnología cuántica para su uso en ordenadores de sobremesa de alto rendimiento.</description>
-      <category>Tecnologia</category>
+      <author>aac0077@alu.medac.es</author>
+      <category>Tecnologia,  hardware</category>
       <guid isPermaLink="false">343BC432-B9C6-49A0-9C7E-988AE3751B0F</guid>
       <pubDate>Mon, 27 Apr 2026 08:38:14 GMT</pubDate>
     </item>
