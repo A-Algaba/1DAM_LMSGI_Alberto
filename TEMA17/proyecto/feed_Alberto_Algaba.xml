@@ -6,17 +6,10 @@
     <description>Catalogo de notcias recientes sobre el mundo de la tecnologia, salidas de nuevos productos tecnologicos, IA, hardware, software, ciencia de datos, etc.</description>
     <language>es</language>
     <managingEditor>aac0077@alu.medac.es</managingEditor>
-    <webMaster>aac0077@alu.medac.es</webMaster>
     <pubDate>Mon, 27 Apr 2026 08:37:45 GMT</pubDate>
-    <lastBuildDate>Tue, 28 Apr 2026 10:56:40 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 11:01:39 GMT</lastBuildDate>
     <generator>Absolute RSS Editor</generator>
     <docs>http://www.rssboard.org/rss-specification</docs>
-    <image>
-      <url>https://www.ikusi.com/wp-content/uploads/2025/07/post_thumbnail-4efabca9bd56b38edc0058c4ba006481.jpg</url>
-      <title>Imagen de tecnologia</title>
-      <link>https://www.ikusi.com/wp-content/uploads/2025/07/post_thumbnail-4efabca9bd56b38edc0058c4ba006481.jpg</link>
-      <description>Una imagen que representa nuestro canal de noticias TecnoMundo</description>
-    </image>
     <item>
       <title>Coches voladores eléctricos superan las pruebas en entornos urbanos</title>
       <description>Los primeros taxis aéreos no tripulados han completado con éxito sus rutas de prueba sobre los cielos de Madrid y Barcelona.</description>
@@ -44,7 +37,7 @@
     <item>
       <title>La Inteligencia Artificial ya traduce 500 idiomas en tiempo real</title>
       <link>https://TecnoMundo.com</link>
-      <description>Un nuevo modelo de lenguaje permite la comunicación fluida entre personas de diferentes países mediante auriculares inteligentes.&lt;</description>
+      <description>Un nuevo modelo de lenguaje permite la comunicación fluida entre personas de diferentes países mediante auriculares inteligentes.</description>
       <author>aac0077@alu.medac.es</author>
       <category>Tecnologia</category>
       <guid isPermaLink="false">00FE282D-E455-4480-8EAF-0C6B425DB846</guid>
