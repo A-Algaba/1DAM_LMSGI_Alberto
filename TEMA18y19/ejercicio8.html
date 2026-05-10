@@ -7,7 +7,7 @@
 </head>
 <body>
     <input id="newLine" type="text" name="newLine">
-<button onclick="addElement()">Crear</button>
+<button onclick=addElement()>Crear</button>
 <ul id = "lista"></ul>
 <script>
 
@@ -15,7 +15,7 @@
         var elemento = document.getElementById("newLine");
         var lista = document.getElementById("lista");
 
-        if(elemento.value.trim() != "") {
+        if(elemento.value != "") {
 
             var nuevoLi = document.createElement("li");
 
