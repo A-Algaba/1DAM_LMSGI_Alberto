@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        let web = prompt("Escribe una pagina web");
+        let post = prompt("Escribe le titulo del post: ");
+        crearSlug(web, post)
+
+        function crearSlug(web, post) {
+            let texto = post.toLowerCase().split(" ").join("-");
+            document.write("http://" + web + "/" + texto);
+            document.write("<br>");
+            let url = "http://" + web + "/" + texto;
+            document.write("La url tiene " + url.length + " caracteres");
+        }
+
+    </script>
+</body>
+</html>

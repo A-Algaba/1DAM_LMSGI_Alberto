@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        let frase = prompt("Dime una frase: ");
+        checkspam(frase);
+
+        function checkspam(str) {
+            
+            if(str.includes("viagra") || str.includes("XXX")){
+                document.write("Contiene SPAM");
+            } else {
+                document.write("No contiene SPAM");
+            }
+
+        }
+
+    </script>
+</body>
+</html>

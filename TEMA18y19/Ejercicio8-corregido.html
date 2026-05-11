@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="newLine" type="text" name="newLine">
+    <button onclick="addElement()">Crear</button>
+    <ul></ul>
+
+    <script>
+        function addElement() {
+            let entrada = document.getElementById("newLine"); //Guardas la informacion del input
+            let texto = entrada.value; //Guardo en la variable texto el valor de entrada
+
+            if(texto != "") {
+
+            let lista = document.getElementsByTagName("ul")[0]; //Guardas el elemento del ul su primera posicion o primer ul, y lo guardo en la variable lista
+            let nuevoLi = document.createElement("li");
+            nuevoLi.innerHTML = texto; //innerHTML añade o modifica elementos html en una variable
+            //con innerText solo lo pasa a texto
+            lista.appendChild(nuevoLi); //Con appendchild metes dentro un elemento hijo, dentro del parentesis del appendchild, metes el elemento hijo
+            //En resumen, con appendchild, metes un elemento html dentro de otro
+            entrada.style.backgroundColor = "white";
+
+            } else {
+                entrada.style.backgroundColor = "red";
+                alert("escribe algo");
+            }
+        }
+    </script>
+</body>
+</html>
